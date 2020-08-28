@@ -28,7 +28,7 @@ export default function Projects(props) {
                     <img alt="pic of stuff i do"/>
                 </Col>
             </FullPageRow>
-            <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
+            <FullPageRow style={{backgroundColor: '#EEFFEE'}}>
                 <Col md={4} className="my-auto">
                     <iframe width="400px" height="400px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
@@ -39,7 +39,7 @@ export default function Projects(props) {
                         style={{color: '#cccccc', textDecoration: 'none'}}>Presidents</a></div>
                 </Col>
                 <Col md={4} className="my-auto">
-                    <h1>Music</h1>
+                    <h2>Music</h2>
                     <p>I've been producing electronic music and hip hop for a long ass time. Here's something I dropped a couple years ago,
                     it samples Nas's verses from <i>The World Is Yours</i> as well as clips of Brian Kernighan and DJ Premier.<br/><br/>
                     <a href="https://soundcloud.com/chocolate-milk-music">Here's my SoundCloud</a></p>
