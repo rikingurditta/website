@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
 
 function App() {
     return (
@@ -15,11 +16,13 @@ function App() {
                     <Nav className="ml-auto">
                         <Nav.Link as={Link} to="/" push>Home</Nav.Link>
                         <Nav.Link as={Link} to="/projects" push>Projects</Nav.Link>
+                        <Nav.Link as={Link} to="/experience" push>Experience</Nav.Link>
                     </Nav>
                 </Navbar>
                 <Switch>
                     <Route path="/" exact component={Homepage}/>
                     <Route path="/projects" component={Projects}/>
+                    <Route path="/experience" component={Experience}/>
                 </Switch>
             </Router>
         </div>
