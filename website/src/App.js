@@ -6,23 +6,38 @@ import Navbar from "react-bootstrap/Navbar";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
+import Academics from "./pages/Academics";
+import GlobalNavbar from "./components/GlobalNavbar";
+
+const pages = [
+    {
+        name: 'Projects',
+        path: 'projects',
+        component: Projects
+    },
+    {
+        name: 'Experience',
+        path: 'experience',
+        component: Experience
+    },
+    {
+        name: 'Academics',
+        path: 'academics',
+        component: Academics
+    },
+];
+
 
 function App() {
     return (
         <div className="App">
             <Router>
-                <Navbar fixed="top" expand="lg">
-                    <Navbar.Brand as={Link} to="/" push>Rikin</Navbar.Brand>
-                    <Nav className="ml-auto">
-                        <Nav.Link as={Link} to="/" push>Home</Nav.Link>
-                        <Nav.Link as={Link} to="/projects" push>Projects</Nav.Link>
-                        <Nav.Link as={Link} to="/experience" push>Experience</Nav.Link>
-                    </Nav>
-                </Navbar>
+                <GlobalNavbar sitePages={pages}/>
                 <Switch>
                     <Route path="/" exact component={Homepage}/>
-                    <Route path="/projects" component={Projects}/>
-                    <Route path="/experience" component={Experience}/>
+                    {
+                        pages.map(page => <Route path={'/' + page.path} component={page.component}/>)
+                    }
                 </Switch>
             </Router>
         </div>
