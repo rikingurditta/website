@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {HashRouter as Router, Switch, Route} from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
