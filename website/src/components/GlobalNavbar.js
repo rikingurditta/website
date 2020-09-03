@@ -18,9 +18,10 @@ export default class GlobalNavbar extends Component {
 
     render() {
         return (
-            <Navbar sticky="top" expand="lg" style={{backgroundColor: `rgba(255, 255, 255, ${this.state.bgAlpha})`}}>
+            <Navbar sticky="top" expand="lg" style={{backgroundColor: `rgba(255, 255, 255, 1`}}>
+                {/*navbar with fading colour: <Navbar sticky="top" expand="lg" style={{backgroundColor: `rgba(255, 255, 255, ${this.state.bgAlpha})`}}>*/}
                 <Navbar.Brand as={Link} to="/" push>Rikin</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link as={Link} to="/" push>Home</Nav.Link>

@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import origami_elephant from "../images/origami elephant cropped.jpg";
 import bio_pic from "../images/eric_andre_keyboardist.png";
 import FullPageRow from "../components/FullPageRow";
+import Row from "react-bootstrap/Row";
 
 export default function Homepage() {
     return (
@@ -31,7 +32,7 @@ export default function Homepage() {
                     </p>
                 </Col>
             </FullPageRow>
-            <FullPageRow>
+            <Row className="justify-content-md-center" style={{minHeight: '30vh'}}>
                 <Col md={2} className="my-auto"/>
                 <Col md={2} className="my-auto">
                     <h2>Links</h2>
@@ -60,7 +61,7 @@ export default function Homepage() {
                         </a>
                     </p>
                 </Col>
-            </FullPageRow>
+            </Row>
         </Container>
     )
 }

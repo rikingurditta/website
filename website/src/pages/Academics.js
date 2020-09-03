@@ -2,13 +2,12 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import FullPageRow from "../components/FullPageRow";
 import Expandable from "../components/Expandable";
 
 export default function Academics() {
     return (
         <Container fluid>
-            <Row className="justify-content-md-center" style={{minHeight: '400px', backgroundColor: '#EEFFEE'}}>
+            <Row className="justify-content-md-center" style={{minHeight: '30vh', backgroundColor: '#EEFFEE'}}>
                 <Col md={4} className="my-auto">
                     <h1>Academics</h1>
                 </Col>
