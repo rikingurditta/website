@@ -8,12 +8,9 @@ export default function Expandable(props) {
                   style={{cursor: 'pointer', textDecoration: 'underline'}}>
                 {props.inside} {expanded ? '-' : '+'}
             </span>
-            {expanded
-                ? <>
-                    {props.children}
-                </>
-                : null
-            }
+            <div hidden={!expanded}>
+                {props.children}
+            </div>
         </div>
     );
 }

@@ -52,15 +52,56 @@ export default function Academics() {
                             <li>CSC108 - Intro to programming</li>
                             <li>CSC148 - Intro to computer science</li>
                             <li>CSC165 - Mathematical expression and reasoning for CS</li>
-                            <li>CSC207 - Software design</li>
-                            <li>CSC209 - Systems programming</li>
+                            <li>
+                                <Expandable inside={<span>CSC207 - Software design</span>}>
+                                    <p>
+                                        This course was pretty fun. The course project was to design and implement games
+                                        for Android in teams. Within my team of 6, my friend and I made Bomberman. It
+                                        was a lot of fun not only designing the software architecture, but also
+                                        implementing it as well as creating all the assets.
+                                        <br/>
+                                        <a href="https://github.com/rikingurditta/csc207" target="_blank">Here</a> is my
+                                        course project. (Yes, all the <i>beautiful</i> art was done by me.)
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable inside={<span>CSC209 - Systems programming</span>}>
+                                    <p>
+                                        I enjoyed this course. It wasn't very difficult, had relatively low workload,
+                                        and the assingments were kinda cool. On top of learning the basics of C and
+                                        systems programming, we also learned a tiny bit about how we deal with
+                                        messages being broken up as they're sent over a network. We used this to
+                                        implement a command line-based message board. Fun stuff.
+                                    </p>
+                                </Expandable>
+                            </li>
                             <li>CSC236 - Intro to the theory of computation</li>
                             <li>
                                 <Expandable inside="CSC258 - Computer organization">
                                     <p>This course sucked.</p>
                                 </Expandable>
                             </li>
-                            <li>CSC263 - Data structures and analysis</li>
+                            <li>
+                                <Expandable inside="CSC263 - Data structures and analysis">
+                                    <p>
+                                        I enjoyed this course! It was cool seeing how data structures I've been using
+                                        actually work under the hood, the cool stuff you can do with algorithms like
+                                        DFS, and cool analysis techniques like decision trees.<br/>
+                                        <a href="https://rikingurditta.github.io/csc263/">Here</a> are my notes for the
+                                        course.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable inside="CSC369 - Operating systems">
+                                    <p>
+                                        This course had some pretty interesting and important material material, and the
+                                        first assignment (design and implement your own file system) was pretty fun. But
+                                        it was not organized very well, and it was <i>a lot</i> of work.
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
                 </Col>
@@ -77,7 +118,7 @@ export default function Academics() {
                         <ul>
                             <li>MAT347 - Groups, rings, and fields</li>
                             <li>MAT309 - Intro to mathematical logic</li>
-                            <li>MAT357 - Foundations of real analyiss</li>
+                            <li>MAT357 - Foundations of real analysis</li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -92,11 +133,12 @@ export default function Academics() {
                                 <Expandable inside={<span>MAT327 - Intro to topology</span>}>
                                     <p>
                                         This course was great! I learned a lot about point-set topology, and got a nice
-                                        taste of algebraic topology. The professor, <a href="https://malors.com/" target="_blank">Malors</a>,
+                                        taste of algebraic topology. The professor, <a href="https://malors.com/"
+                                                                                       target="_blank">Malors</a>,
                                         was tough on us but he really cared about our learning.
-                                    </p>
-                                    <p>
-                                        <a href="https://rikingurditta.github.io/mat327/" target="_blank">Here</a> are my notes for the course.
+                                        <br/>
+                                        <a href="https://rikingurditta.github.io/mat327/" target="_blank">Here</a> are
+                                        my notes for the course.
                                     </p>
                                 </Expandable>
                             </li>
