@@ -25,6 +25,10 @@ export default function Academics() {
                         <a href="https://koalastothemax.com/" target="_blank">Here's</a> a link to some relevant TAing
                         stuff.
                     </p>
+                    <p>
+                        <a href="https://forms.gle/WoSfM34xCnz4NRma7" target="_blank">Here's</a> a link to my anonymous
+                        feedback form.
+                    </p>
                 </Col>
             </Row>
             <Row className="justify-content-md-center text-content">
@@ -35,14 +39,14 @@ export default function Academics() {
                     <p>
                         I'm focusing in computer graphics, and I hope to one day work in the field, either doing
                         research or working on cool stuff like VR tech or movie rendering. This year I'm the VP External
-                        for <a target="_blank" href="https://utcg.club/">UofT Computer Graphics Club</a>, and I was a
+                        for <a href="https://utcg.club/" target="_blank">UofT Computer Graphics Club</a>, and I was a
                         student volunteer for a huge computer graphics conference called <a target="_blank"
                                                                                             href="https://s2020.siggraph.org/">SIGGRAPH</a>.
                     </p>
                     <Expandable inside={<span>Courses I'm taking this year</span>}>
                         <ul>
                             <li>
-                                <Expandable inside={<span>CSC373 - Algorithms (Fall)</span>}>
+                                <Expandable inside={<span>CSC373 - Algorithm Design, Analysis, and Complexity (Fall)</span>}>
                                     <p className="expand-text">
                                         <a href="https://rikingurditta.github.io/csc373/" target="_blank">Here</a> are
                                         my notes for the course (in-progress).
@@ -51,7 +55,7 @@ export default function Academics() {
                             </li>
                             <li>CSC419 - Geometry processing (Fall)</li>
                             <li>CSC317 - Computer graphics (Winter)</li>
-                            <li>CSC343 - Databases (Winter)</li>
+                            <li>CSC343 - Intro to Databases (Winter)</li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -97,7 +101,7 @@ export default function Academics() {
                                         I enjoyed this course! It was cool seeing how data structures I've been using
                                         actually work under the hood, the cool stuff you can do with algorithms like
                                         DFS, and cool analysis techniques like decision trees.<br/>
-                                        <a href="https://rikingurditta.github.io/csc263/">Here</a> are my notes for the
+                                        <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are my notes for the
                                         course.
                                     </p>
                                 </Expandable>
@@ -133,7 +137,14 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>MAT309 - Intro to mathematical logic (Fall)</li>
+                            <li>
+                                <Expandable inside={<span>MAT309 - Intro to mathematical logic (Fall)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/mat309/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
                             <li>MAT357 - Foundations of real analysis (Winter)</li>
                         </ul>
                     </Expandable>

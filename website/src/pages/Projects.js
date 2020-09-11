@@ -25,9 +25,6 @@ export default function Projects(props) {
                     <h1>Projects</h1>
                     <h3>I do a lot of stuff</h3>
                 </Col>
-                <Col md={4} className="my-auto">
-                    <img alt="pic of stuff i do"/>
-                </Col>
             </TitleRow>
             <FullPageRow>
                 <Col md={4} className="my-auto">
