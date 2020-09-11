@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Academics from "./pages/Academics";
 import GlobalNavbar from "./components/GlobalNavbar";
+import Footer from "./components/Footer";
 
 const pages = [
     {
@@ -37,6 +38,7 @@ function App() {
                         pages.map(page => <Route path={'/' + page.path} component={page.component}/>)
                     }
                 </Switch>
+                <Footer/>
             </Router>
         </div>
     );
