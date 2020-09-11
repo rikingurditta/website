@@ -3,16 +3,17 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Expandable from "../components/Expandable";
+import TitleRow from "../components/TitleRow";
 
 export default function Academics() {
     return (
         <Container fluid>
-            <Row className="justify-content-md-center" style={{minHeight: '30vh', backgroundColor: '#EEFFEE'}}>
+            <TitleRow style={{backgroundColor: '#DDFFDD'}}>
                 <Col md={4} className="my-auto">
                     <h1>Academics</h1>
                 </Col>
                 <Col md={4} className="my-auto"/>
-            </Row>
+            </TitleRow>
             <Row className="justify-content-md-center text-content">
                 <Col md={4}>
                     <h2>Teaching</h2>
@@ -40,10 +41,17 @@ export default function Academics() {
                     </p>
                     <Expandable inside={<span>Courses I'm taking this year</span>}>
                         <ul>
-                            <li>CSC419 - Geometry processing</li>
-                            <li>CSC373 - Algorithms</li>
-                            <li>CSC317 - Computer graphics</li>
-                            <li>CSC343 - Databases</li>
+                            <li>
+                                <Expandable inside={<span>CSC373 - Algorithms (Fall)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/csc373/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>CSC419 - Geometry processing (Fall)</li>
+                            <li>CSC317 - Computer graphics (Winter)</li>
+                            <li>CSC343 - Databases (Winter)</li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -54,20 +62,21 @@ export default function Academics() {
                             <li>CSC165 - Mathematical expression and reasoning for CS</li>
                             <li>
                                 <Expandable inside={<span>CSC207 - Software design</span>}>
-                                    <p>
+                                    <p className="expand-text">
                                         This course was pretty fun. The course project was to design and implement games
                                         for Android in teams. Within my team of 6, my friend and I made Bomberman. It
                                         was a lot of fun not only designing the software architecture, but also
                                         implementing it as well as creating all the assets.
                                         <br/>
                                         <a href="https://github.com/rikingurditta/csc207" target="_blank">Here</a> is my
-                                        course project. (Yes, all the <i>beautiful</i> art was done by me.)
+                                        course project. (Yes, all the <i>beautiful</i> art for Bomberman was done by
+                                        me.)
                                     </p>
                                 </Expandable>
                             </li>
                             <li>
                                 <Expandable inside={<span>CSC209 - Systems programming</span>}>
-                                    <p>
+                                    <p className="expand-text">
                                         I enjoyed this course. It wasn't very difficult, had relatively low workload,
                                         and the assingments were kinda cool. On top of learning the basics of C and
                                         systems programming, we also learned a tiny bit about how we deal with
@@ -79,12 +88,12 @@ export default function Academics() {
                             <li>CSC236 - Intro to the theory of computation</li>
                             <li>
                                 <Expandable inside="CSC258 - Computer organization">
-                                    <p>This course sucked.</p>
+                                    <p className="expand-text">This course sucked.</p>
                                 </Expandable>
                             </li>
                             <li>
                                 <Expandable inside="CSC263 - Data structures and analysis">
-                                    <p>
+                                    <p className="expand-text">
                                         I enjoyed this course! It was cool seeing how data structures I've been using
                                         actually work under the hood, the cool stuff you can do with algorithms like
                                         DFS, and cool analysis techniques like decision trees.<br/>
@@ -95,7 +104,7 @@ export default function Academics() {
                             </li>
                             <li>
                                 <Expandable inside="CSC369 - Operating systems">
-                                    <p>
+                                    <p className="expand-text">
                                         This course had some pretty interesting and important material material, and the
                                         first assignment (design and implement your own file system) was pretty fun. But
                                         it was not organized very well, and it was <i>a lot</i> of work.
@@ -116,9 +125,16 @@ export default function Academics() {
                     </p>
                     <Expandable inside={<span>Courses I'm taking this year</span>}>
                         <ul>
-                            <li>MAT347 - Groups, rings, and fields</li>
-                            <li>MAT309 - Intro to mathematical logic</li>
-                            <li>MAT357 - Foundations of real analysis</li>
+                            <li>
+                                <Expandable inside={<span>MAT347 - Groups, rings, and fields (Fall-Winter)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/mat347/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>MAT309 - Intro to mathematical logic (Fall)</li>
+                            <li>MAT357 - Foundations of real analysis (Winter)</li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -131,7 +147,7 @@ export default function Academics() {
                             <li>MAT247 - Algebra 2</li>
                             <li>
                                 <Expandable inside={<span>MAT327 - Intro to topology</span>}>
-                                    <p>
+                                    <p className="expand-text">
                                         This course was great! I learned a lot about point-set topology, and got a nice
                                         taste of algebraic topology. The professor, <a href="https://malors.com/"
                                                                                        target="_blank">Malors</a>,

@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import FullPageRow from "../components/FullPageRow";
 import Col from "react-bootstrap/Col";
+import TitleRow from "../components/TitleRow";
 
 let soundcloud_div_style = {
     fontSize: '10px',
@@ -19,7 +20,7 @@ let soundcloud_div_style = {
 export default function Projects(props) {
     return (
         <Container fluid>
-            <FullPageRow>
+            <TitleRow style={{backgroundColor: '#DDDDFF'}}>
                 <Col md={4} className="my-auto">
                     <h1>Projects</h1>
                     <h3>I do a lot of stuff</h3>
@@ -27,8 +28,8 @@ export default function Projects(props) {
                 <Col md={4} className="my-auto">
                     <img alt="pic of stuff i do"/>
                 </Col>
-            </FullPageRow>
-            <FullPageRow style={{backgroundColor: '#EEFFEE'}}>
+            </TitleRow>
+            <FullPageRow>
                 <Col md={4} className="my-auto">
                     <iframe width="400px" height="400px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
