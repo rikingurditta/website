@@ -21,21 +21,29 @@ export default function Experience() {
                 <Col md={4}>
                     <p>
                         <a href="https://www.centivizer.com/" target="_blank">Centivizer</a> is a startup based in
-                        UofT's <a href="https://imedia.mie.utoronto.ca/" target="_blank">Interactive Media Lab</a>. I
-                        worked there in the summers of 2019 and 2020, with many other students.
+                        UofT's <a href="https://imedia.mie.utoronto.ca/" target="_blank">Interactive Media Lab</a>.
                     </p>
                     <p>
                         In 2019, I worked on a 3D driving simulator game for the <i>Experiential Centivizer</i> project.
-                        This game was meant to provide familiar experiences to residents of retirement/long-term care
-                        homes, and also monitor their cognitive ability for signs of dementia. I worked on the 3D game
-                        code, 3D assets (some modelling and texturing), and UI/UX.
+                        I worked on:
+                        <ul>
+                            <li>3D game code</li>
+                            <li>3D assets (some modelling and texturing)</li>
+                            <li>UX and senior-oriented design</li>
+                        </ul>
                     </p>
                     <p>
-                        In 2020, I worked on <i>Cognitive Centivizer</i>, a suite of games meant to assess different
-                        aspects of cognitive ability using a simple whack-a-mole theme. I worked on implementing new
-                        versions of the games, as well as caching and other features. Then, I worked on planning,
-                        designing, and implementing a full rewrite of the codebase with React.js. I also did the <a
-                        href="https://clyp.it/sdjwuirh">music</a> and SFX sound design for the game in 2019.
+                        In 2020, I worked on <i>Cognitive Centivizer</i>, a suite of whack-a-mole games meant to assess
+                        different aspects of cognitive ability. I worked on:
+                        <ul>
+                            <li>implementing new versions of the games</li>
+                            <li>caching and other performance/stability concerns</li>
+                            <li>planning, designing, and implementing full rewrite of the codebase with React.js</li>
+                            <li>
+                                the <a href="https://clyp.it/sdjwuirh" target="_blank">music</a> and sound design
+                                for the game
+                            </li>
+                        </ul>
                     </p>
                 </Col>
             </Row>
@@ -46,19 +54,25 @@ export default function Experience() {
                 </Col>
                 <Col md={4}>
                     <p>
-                        <a href="https://www.national.ca/en/" target="_blank">NATIONAL Public Relations</a> is a pretty
-                        large Canadian public relations company. I was an intern for the Research Strategy team at their
-                        Toronto office in the summer of 2019.
+                        <a href="https://www.national.ca/en/" target="_blank">NATIONAL Public Relations</a> is a large
+                        Canadian public relations company. I was an intern for the Research and Strategy team at their
+                        Toronto office.
                     </p>
                     <p>
-                        I worked on media monitoring, data processing in Excel, developing complex macros to generate
-                        reports based on Excel spreadsheets, developing small scale web-scraping scripts, and debugging
-                        large-scale web-scraping services.
-                    </p>
-                    <p>
-                        Media monitoring is essentially analyzing what the media is saying about a topic to inform PR
-                        strategy. This job is actually really boring. As a result, a lot of my work went into completely
-                        revamping the company's media monitoring process for Amazon, one of NATIONAL's biggest clients.
+                        I worked on:
+                        <ul>
+                            <li>media monitoring</li>
+                            <li>
+                                data processing and analysis in Excel (as well as automation of these tasks with macros
+                                and scripts)
+                            </li>
+                            <li>
+                                automating report generation based on Excel sheets of data
+                            </li>
+                            <li>
+                                developing web scraping scripts, bug testing large-scale web scraping services
+                            </li>
+                        </ul>
                     </p>
                 </Col>
             </Row>

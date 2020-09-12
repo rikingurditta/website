@@ -46,7 +46,8 @@ export default function Academics() {
                     <Expandable inside={<span>Courses I'm taking this year</span>}>
                         <ul>
                             <li>
-                                <Expandable inside={<span>CSC373 - Algorithm Design, Analysis, and Complexity (Fall)</span>}>
+                                <Expandable
+                                    inside={<span>CSC373 - Algorithm Design, Analysis, and Complexity (Fall)</span>}>
                                     <p className="expand-text">
                                         <a href="https://rikingurditta.github.io/csc373/" target="_blank">Here</a> are
                                         my notes for the course (in-progress).
@@ -101,7 +102,8 @@ export default function Academics() {
                                         I enjoyed this course! It was cool seeing how data structures I've been using
                                         actually work under the hood, the cool stuff you can do with algorithms like
                                         DFS, and cool analysis techniques like decision trees.<br/>
-                                        <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are my notes for the
+                                        <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are
+                                        my notes for the
                                         course.
                                     </p>
                                 </Expandable>
@@ -171,6 +173,38 @@ export default function Academics() {
                             </li>
                         </ul>
                     </Expandable>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center text-content">
+                <Col md={4}>
+                    <h2>Course Notes</h2>
+                </Col>
+                <Col md={4} className="my-auto">
+                    <p>
+                        Here are all of the course notes that I've typed up nicely and uploaded!
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://rikingurditta.github.io/csc263/" target="_blank">CSC263 - Data Structures
+                                and Analysis</a>
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/csc373/" target="_blank">CSC373 - Algorithm Design,
+                                Analysis, and Complexity</a> (in progress)
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/mat327/" target="_blank">MAT327 - Intro to
+                                Topology</a>
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/mat309/" target="_blank">MAT309 - Intro to
+                                Mathematical Logic</a> (in progress)
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/mat347/" target="_blank">MAT347 - Groups, Fields,
+                                and Rings</a> (in progress)
+                        </li>
+                    </ul>
                 </Col>
             </Row>
         </Container>
