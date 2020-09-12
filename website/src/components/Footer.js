@@ -36,8 +36,8 @@ export default function Footer(props) {
                             </svg>
                         </a>
                     </p>
-                    <p style={{fontSize: '12px'}}>
-                        School-related email: rikin [dot] gurditta [at] mail [dot] utoronto [dot] ca
+                    <p style={{fontSize: '12px', textAlign: 'center'}}>
+                        School-related email: <a href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
                     </p>
                 </Col>
             </Row>

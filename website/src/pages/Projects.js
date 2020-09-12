@@ -23,8 +23,9 @@ export default function Projects(props) {
             <TitleRow style={{backgroundColor: '#DDDDFF'}}>
                 <Col md={4} className="my-auto">
                     <h1>Projects</h1>
-                    <h3>I do a lot of stuff</h3>
+                    <h4>I do a lot of stuff</h4>
                 </Col>
+                <Col md={4}/>
             </TitleRow>
             <FullPageRow>
                 <Col md={4} className="my-auto">
