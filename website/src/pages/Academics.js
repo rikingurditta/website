@@ -11,7 +11,6 @@ export default function Academics() {
             <TitleRow style={{backgroundColor: '#DDFFDD'}}>
                 <Col md={4} className="my-auto">
                     <h1>Academics</h1>
-                    <h4>I'm learning a lot of stuff</h4>
                 </Col>
                 <Col md={4}/>
             </TitleRow>

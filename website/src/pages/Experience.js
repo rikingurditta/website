@@ -10,7 +10,6 @@ export default function Experience() {
             <TitleRow style={{backgroundColor: '#FFDDDD'}}>
                 <Col md={4} className="my-auto">
                     <h1>My experience</h1>
-                    <h4>I've done a lot of stuff</h4>
                 </Col>
                 <Col md={4}/>
             </TitleRow>
