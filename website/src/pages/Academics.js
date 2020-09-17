@@ -47,16 +47,33 @@ export default function Academics() {
                         <ul>
                             <li>
                                 <Expandable
-                                    inside={<span>CSC373 - Algorithm Design, Analysis, and Complexity (Fall)</span>}>
+                                    inside={<span>CSC373 - Algorithm design, analysis, and complexity (Fall)</span>}>
                                     <p className="expand-text">
                                         <a href="https://rikingurditta.github.io/csc373/" target="_blank">Here</a> are
                                         my notes for the course (in-progress).
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>CSC419 - Geometry processing (Fall)</li>
+                            <li>
+                                <Expandable
+                                    inside={<span>CSC417 - Physics-based animation (Fall)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/csc417/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable
+                                    inside={<span>CSC419 - Geometry processing (Fall)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/csc419/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
                             <li>CSC317 - Computer graphics (Winter)</li>
-                            <li>CSC343 - Intro to Databases (Winter)</li>
+                            <li>CSC343 - Intro to databases (Winter)</li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -139,14 +156,6 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>
-                                <Expandable inside={<span>MAT309 - Intro to mathematical logic (Fall)</span>}>
-                                    <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/mat309/" target="_blank">Here</a> are
-                                        my notes for the course (in-progress).
-                                    </p>
-                                </Expandable>
-                            </li>
                             <li>MAT357 - Foundations of real analysis (Winter)</li>
                         </ul>
                     </Expandable>
@@ -185,24 +194,28 @@ export default function Academics() {
                     </p>
                     <ul>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc263/" target="_blank">CSC263 - Data Structures
-                                and Analysis</a>
+                            <a href="https://rikingurditta.github.io/csc263/" target="_blank">CSC263 - Data structures
+                                and analysis</a>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc373/" target="_blank">CSC373 - Algorithm Design,
-                                Analysis, and Complexity</a> (in progress)
+                            <a href="https://rikingurditta.github.io/csc373/" target="_blank">CSC373 - Algorithm design,
+                                analysis, and complexity</a> (in progress)
                         </li>
                         <li>
                             <a href="https://rikingurditta.github.io/mat327/" target="_blank">MAT327 - Intro to
-                                Topology</a>
+                                topology</a>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/mat309/" target="_blank">MAT309 - Intro to
-                                Mathematical Logic</a> (in progress)
+                            <a href="https://rikingurditta.github.io/mat347/" target="_blank">MAT347 - Groups, fields,
+                                and rings</a> (in progress)
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/mat347/" target="_blank">MAT347 - Groups, Fields,
-                                and Rings</a> (in progress)
+                            <a href="https://rikingurditta.github.io/csc417/" target="_blank">417 - Physics-based
+                                animation</a> (in progress)
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/csc419/" target="_blank">419 - Geometry
+                                processing</a> (in progress)
                         </li>
                     </ul>
                 </Col>
