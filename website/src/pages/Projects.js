@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import FullPageRow from "../components/FullPageRow";
 import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
-import compiletest from "../TSRegex/js/compiletest";
+import compile from "../TSRegex/js/compiletest";
 import {wellFormedBrackets} from "../TSRegex/js/Lexical";
 
 let soundcloud_div_style = {
@@ -26,7 +26,6 @@ export default function Projects(props) {
     let [justLoaded, setJustLoaded] = useState(true);
     let [accepted, setAccepted] = useState('');
     let [inputRegex, setInputRegex] = useState(startRe);
-    let [oldRegex, setOldRegex] = useState('');
     let [inputText, setInputText] = useState(startString);
 
     function handleRegexChange(event) {
@@ -34,7 +33,6 @@ export default function Projects(props) {
         if (newRe !== inputRegex) {
             updateAccepted(newRe, inputText)
         }
-        setOldRegex(inputRegex);
         setInputRegex(newRe);
 
     }
@@ -53,7 +51,7 @@ export default function Projects(props) {
             // try {
             console.log('regex:', regex);
             console.log('string:', text);
-            let nfa = compiletest(regex).getNFA();
+            let nfa = compile(regex).getNFA();
             console.log(nfa);
             setAccepted('' + nfa.checkString(text));
             // } catch (err) {
@@ -77,7 +75,7 @@ export default function Projects(props) {
             </TitleRow>
             <FullPageRow>
                 <Col md={4} className="my-auto">
-                    <h2>RegEx Compiler</h2>
+                    <h2>Regular Expression Compiler</h2>
                     <p>
                         My theory of computation class briefly mentioned <a
                         href="https://en.wikipedia.org/wiki/Thompson%27s_construction" target="_blank">Thompson's
