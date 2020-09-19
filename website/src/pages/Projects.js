@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Container from "react-bootstrap/Container";
 import FullPageRow from "../components/FullPageRow";
 import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
+import compiletest from "../TSRegex/js/compiletest";
+import {wellFormedBrackets} from "../TSRegex/js/Lexical";
 
 let soundcloud_div_style = {
     fontSize: '10px',
@@ -18,6 +20,53 @@ let soundcloud_div_style = {
 
 
 export default function Projects(props) {
+    let startRe = '\\w(i)([dgiknru]| ){8}\\1t{2}a+.*!?';
+    let startString = 'rikin gurditta is cool!';
+
+    let [justLoaded, setJustLoaded] = useState(true);
+    let [accepted, setAccepted] = useState('');
+    let [inputRegex, setInputRegex] = useState(startRe);
+    let [oldRegex, setOldRegex] = useState('');
+    let [inputText, setInputText] = useState(startString);
+
+    function handleRegexChange(event) {
+        let newRe = event.target.value;
+        if (newRe !== inputRegex) {
+            updateAccepted(newRe, inputText)
+        }
+        setOldRegex(inputRegex);
+        setInputRegex(newRe);
+
+    }
+
+    function handleTextChange(event) {
+        setInputText(event.target.value);
+        updateAccepted(inputRegex, event.target.value);
+    }
+
+    function updateAccepted(regex, text) {
+        if (regex === '' || text === '') {
+            setAccepted('');
+        } else if (!wellFormedBrackets(regex)) {
+            setAccepted('invalid regex')
+        } else {
+            // try {
+            console.log('regex:', regex);
+            console.log('string:', text);
+            let nfa = compiletest(regex).getNFA();
+            console.log(nfa);
+            setAccepted('' + nfa.checkString(text));
+            // } catch (err) {
+            //     setAccepted('');
+            // }
+        }
+    }
+
+    if (justLoaded) {
+        updateAccepted(startRe, startString);
+        setJustLoaded(false);
+    }
+
     return (
         <Container fluid>
             <TitleRow style={{backgroundColor: '#DDDDFF'}}>
@@ -27,6 +76,36 @@ export default function Projects(props) {
                 <Col md={4}/>
             </TitleRow>
             <FullPageRow>
+                <Col md={4} className="my-auto">
+                    <h2>RegEx Compiler</h2>
+                    <p>
+                        My theory of computation class briefly mentioned <a
+                        href="https://en.wikipedia.org/wiki/Thompson%27s_construction" target="_blank">Thompson's
+                        algorithm</a>. It seemed interesting, so I decided to implement it as a compiler for a subset of
+                        Perl RegEx. It supports quantifiers with <code>{"re{m,n}"}?+*</code>, character groups
+                        with <code>[chars]</code>, union with <code>a|b</code>, the wildcards <code>.\w\d</code> and
+                        capture groups with <code>(parentheses)</code> (except for <code>\0</code>).
+                    </p>
+                    <p>
+                        <a href="https://github.com/rikingurditta/TSRegex" target="_blank">Here's</a> the GitHub repo!
+                    </p>
+                </Col>
+                <Col md={4} className="my-auto">
+                    <h4>Try it out!</h4>
+                    <p>
+                        Regex: <br/><input value={inputRegex} onChange={handleRegexChange} style={{width: '100%'}}/>
+                    </p>
+                    <p>
+                        Text: <br/><input value={inputText} onChange={handleTextChange} style={{width: '100%'}}/>
+                    </p>
+                    <p>
+                        Accepted: <b><span
+                        style={{color: accepted === 'true' ? '#11DD11' : '#FF1111'}}>{accepted}</span></b>
+                    </p>
+                    {/*<p>{'' + compiletest('aaaaa').getNFA().checkString('aaa')}</p>*/}
+                </Col>
+            </FullPageRow>
+            <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
                 <Col md={4} className="my-auto">
                     <iframe width="400px" height="400px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
@@ -38,9 +117,11 @@ export default function Projects(props) {
                 </Col>
                 <Col md={4} className="my-auto">
                     <h2>Music</h2>
-                    <p>I've been producing electronic music and hip hop for a long ass time. Here's something I dropped a couple years ago,
-                    it samples Nas's verses from <i>The World Is Yours</i> as well as clips of Brian Kernighan and DJ Premier.<br/><br/>
-                    <a href="https://soundcloud.com/chocolate-milk-music">Here's my SoundCloud</a></p>
+                    <p>I've been producing electronic music and hip hop for a long ass time. Here's something I dropped
+                        a couple years ago, it samples Nas's verses from <i>The World Is Yours</i> as well as clips of
+                        Brian Kernighan and DJ Premier. <br/><br/> <a
+                            href="https://soundcloud.com/chocolate-milk-music">Here's my
+                            SoundCloud</a></p>
                 </Col>
             </FullPageRow>
         </Container>

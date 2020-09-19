@@ -1,3 +1,4 @@
 [submodule "website/src/TSRegex"]
 	path = website/src/TSRegex
 	url = https://github.com/rikingurditta/TSRegex.git
+	branch = master
