@@ -81,7 +81,7 @@ export default function Projects(props) {
                         href="https://en.wikipedia.org/wiki/Thompson%27s_construction" target="_blank">Thompson's
                         algorithm</a>. It seemed interesting, so I decided to implement it as a compiler for a subset of
                         Perl RegEx. It supports quantifiers with <code>{"re{m,n}"}?+*</code>, character groups
-                        with <code>[chars]</code>, union with <code>a|b</code>, the wildcards <code>.\w\d</code> and
+                        with <code>[chars]</code>, union with <code>a|b</code>, the wildcards <code>.\w\d</code>, and
                         capture groups with <code>(parentheses)</code> (except for <code>\0</code>).
                     </p>
                     <p>
