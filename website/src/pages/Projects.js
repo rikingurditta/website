@@ -46,17 +46,13 @@ export default function Projects(props) {
         if (regex === '' || text === '') {
             setAccepted('');
         } else if (!wellFormedBrackets(regex)) {
-            setAccepted('invalid regex')
+            setAccepted('invalid regex');
         } else {
-            // try {
             console.log('regex:', regex);
             console.log('string:', text);
             let nfa = compile(regex).getNFA();
             console.log(nfa);
             setAccepted('' + nfa.checkString(text));
-            // } catch (err) {
-            //     setAccepted('');
-            // }
         }
     }
 
@@ -82,7 +78,7 @@ export default function Projects(props) {
                         algorithm</a>. It seemed interesting, so I decided to implement it as a compiler for a subset of
                         Perl RegEx. It supports quantifiers with <code>{"re{m,n}"}?+*</code>, character groups
                         with <code>[chars]</code>, union with <code>a|b</code>, the wildcards <code>.\w\d</code>, and
-                        capture groups with <code>(parentheses)</code> (except for <code>\0</code>).
+                        capture groups with <code>(parentheses)</code>.
                     </p>
                     <p>
                         <a href="https://github.com/rikingurditta/TSRegex" target="_blank">Here's</a> the GitHub repo!
@@ -91,21 +87,25 @@ export default function Projects(props) {
                 <Col md={4} className="my-auto">
                     <h4>Try it out!</h4>
                     <p>
-                        Regex: <br/><input value={inputRegex} onChange={handleRegexChange} style={{width: '100%'}}/>
+                        Regex:
+                        <br/>
+                        <input value={inputRegex} onChange={handleRegexChange}
+                               style={{width: '100%', fontFamily: 'monospace'}}/>
                     </p>
                     <p>
-                        Text: <br/><input value={inputText} onChange={handleTextChange} style={{width: '100%'}}/>
+                        Text:
+                        <br/>
+                        <input value={inputText} onChange={handleTextChange} style={{width: '100%'}}/>
                     </p>
                     <p>
                         Accepted: <b><span
                         style={{color: accepted === 'true' ? '#11DD11' : '#FF1111'}}>{accepted}</span></b>
                     </p>
-                    {/*<p>{'' + compiletest('aaaaa').getNFA().checkString('aaa')}</p>*/}
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
                 <Col md={4} className="my-auto">
-                    <iframe width="400px" height="400px" scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width="100%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
                     <div style={soundcloud_div_style}>
                         <a href="https://soundcloud.com/chocolate-milk-music" title="Chocolate Milk" target="_blank"
@@ -115,11 +115,14 @@ export default function Projects(props) {
                 </Col>
                 <Col md={4} className="my-auto">
                     <h2>Music</h2>
-                    <p>I've been producing electronic music and hip hop for a long ass time. Here's something I dropped
-                        a couple years ago, it samples Nas's verses from <i>The World Is Yours</i> as well as clips of
-                        Brian Kernighan and DJ Premier. <br/><br/> <a
-                            href="https://soundcloud.com/chocolate-milk-music">Here's my
-                            SoundCloud</a></p>
+                    <p>
+                        I've been producing electronic music and hip hop for a really long time. Here's something I
+                        dropped a couple years ago, it samples Nas's verses from <i>The World Is Yours</i> as well as
+                        clips of Brian Kernighan and DJ Premier.
+                    </p>
+                    <p>
+                        <a href="https://soundcloud.com/chocolate-milk-music" target="_blank">Here's</a> my SoundCloud!
+                    </p>
                 </Col>
             </FullPageRow>
         </Container>

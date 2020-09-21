@@ -16,7 +16,11 @@ export default function Experience() {
             <Row className="justify-content-center text-content">
                 <Col md={4}>
                     <h2>Centivizer</h2>
-                    <p>Summer 2019, Summer 2020</p>
+                    <p>
+                        Game/frontend development
+                        <br/>
+                        Summer 2019, Summer 2020
+                    </p>
                 </Col>
                 <Col md={4}>
                     <p>
@@ -50,7 +54,11 @@ export default function Experience() {
             <Row className="justify-content-center text-content">
                 <Col md={4}>
                     <h2>NATIONAL</h2>
-                    <p>Summer 2019</p>
+                    <p>
+                        Research and strategy
+                        <br/>
+                        Summer 2019
+                    </p>
                 </Col>
                 <Col md={4}>
                     <p>

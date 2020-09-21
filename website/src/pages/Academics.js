@@ -210,11 +210,11 @@ export default function Academics() {
                                 and rings</a> (in progress)
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc417/" target="_blank">417 - Physics-based
+                            <a href="https://rikingurditta.github.io/csc417/" target="_blank">CSC417 - Physics-based
                                 animation</a> (in progress)
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc419/" target="_blank">419 - Geometry
+                            <a href="https://rikingurditta.github.io/csc419/" target="_blank">CSC419 - Geometry
                                 processing</a> (in progress)
                         </li>
                     </ul>

@@ -11,7 +11,7 @@ export default function Homepage() {
         <Container fluid>
             <FullPageRow>
                 <Col md={4} className="my-auto">
-                    <h1>Hello!</h1>
+                    <h1>Hi, I'm Rikin</h1>
                     <h3>Welcome to my website! It's still under construction.</h3>
                 </Col>
                 <Col md={4} className="my-auto">
