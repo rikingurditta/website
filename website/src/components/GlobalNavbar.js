@@ -27,7 +27,7 @@ export default class GlobalNavbar extends Component {
                         <Nav.Link as={Link} to="/" push>Home</Nav.Link>
                         {
                             this.props.sitePages.map(page =>
-                                <Nav.Link as={Link} to={'/' + page.path} push>{page.name}</Nav.Link>
+                                <Nav.Link as={Link} to={'/' + page.path} push key={page.path}>{page.name}</Nav.Link>
                             )
                         }
                     </Nav>

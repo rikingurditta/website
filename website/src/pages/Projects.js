@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
 import compile from "../TSRegex/js/compiletest";
 import {wellFormedBrackets} from "../TSRegex/js/Lexical";
+import doughnut from "../images/02_doughnut_end_of_lvl_2.png";
 
 let soundcloud_div_style = {
     fontSize: '10px',
@@ -105,7 +106,7 @@ export default function Projects(props) {
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
                 <Col md={4} className="my-auto">
-                    <iframe width="100%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe width="80%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
                     <div style={soundcloud_div_style}>
                         <a href="https://soundcloud.com/chocolate-milk-music" title="Chocolate Milk" target="_blank"
@@ -123,6 +124,19 @@ export default function Projects(props) {
                     <p>
                         <a href="https://soundcloud.com/chocolate-milk-music" target="_blank">Here's</a> my SoundCloud!
                     </p>
+                </Col>
+            </FullPageRow>
+            <FullPageRow>
+                <Col md={4} className="my-auto">
+                    <h2>3D Modelling</h2>
+                    <p>
+                        I'm currently learning how to create and texture 3D models with Blender. I'm currently following
+                        Blender Guru's tutorials, but I'll be starting my own project soon! I'll update this page when I
+                        do.
+                    </p>
+                </Col>
+                <Col md={4} className="my-auto">
+                    <img src={doughnut} style={{width: '80%'}}/>
                 </Col>
             </FullPageRow>
         </Container>
