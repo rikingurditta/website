@@ -105,7 +105,7 @@ export default function Projects(props) {
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
-                <Col md={4} className="my-auto">
+                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
                     <iframe width="80%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
                     <div style={soundcloud_div_style}>
@@ -135,7 +135,7 @@ export default function Projects(props) {
                         do.
                     </p>
                 </Col>
-                <Col md={4} className="my-auto">
+                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
                     <img src={doughnut} style={{width: '80%'}}/>
                 </Col>
             </FullPageRow>

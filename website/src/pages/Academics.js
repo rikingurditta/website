@@ -21,10 +21,10 @@ export default function Academics() {
                 <Col md={4} className="my-auto">
                     <p>This fall semester I'm a TA for MAT135 - Calculus 1. This is my first time as a TA, so hopefully
                         it goes well!</p>
-                    <p>
-                        <a href="https://koalastothemax.com/" target="_blank">Here's</a> a link to some relevant TAing
-                        stuff.
-                    </p>
+                    {/*<p>*/}
+                    {/*    <a href="https://koalastothemax.com/" target="_blank">Here's</a> a link to some relevant TAing*/}
+                    {/*    stuff.*/}
+                    {/*</p>*/}
                     <p>
                         <a href="https://forms.gle/WoSfM34xCnz4NRma7" target="_blank">Here's</a> a link to my anonymous
                         feedback form.

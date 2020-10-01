@@ -37,7 +37,8 @@ export default function Footer(props) {
                         </a>
                     </p>
                     <p style={{fontSize: '12px', textAlign: 'center'}}>
-                        School-related email: <a href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
+                        Personal email: <a href="mailto:rikingurditta@gmail.com">rikingurditta@gmail.com</a><br/>
+                        School email: <a href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
                     </p>
                 </Col>
             </Row>
