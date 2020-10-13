@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import FullPageRow from "../components/FullPageRow";
 import origami_elephant from "../images/origami elephant cropped.jpg";
 import suzanne from "../images/suzanne on fire.png";
+import {Link} from "react-router-dom";
 
 export default function Homepage() {
     return (
@@ -32,6 +33,8 @@ export default function Homepage() {
                         I'm currently looking for an internship! Aside from that, I'm organizing UTCG events, modelling
                         doughnuts in Blender, making beats, learning abstract algebra, and implementing geometry
                         processing algorithms.
+                        <br/>
+                        <Link to="/projects" push>Check out my projects!</Link>
                     </p>
                 </Col>
             </FullPageRow>
