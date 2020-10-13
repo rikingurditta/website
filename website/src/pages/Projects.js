@@ -123,18 +123,16 @@ export default function Projects(props) {
             </FullPageRow>
             <FullPageRow>
                 <Col md={4} className="my-auto">
-                    <h2>3D Modelling</h2>
+                    <h2>Music</h2>
                     <p>
-                        I'm currently learning how to create and texture 3D models with Blender. I'm currently following
-                        Blender Guru's tutorials, but I'll be starting my own project soon! I'll update this page when I
-                        do.
+                        I've been producing electronic music and hip hop for a really long time. Here's something I
+                        dropped a couple years ago, it samples Nas's verses from <i>The World Is Yours</i> as well as
+                        clips of Brian Kernighan and DJ Premier.
+                    </p>
+                    <p>
+                        <a href="https://soundcloud.com/chocolate-milk-music" target="_blank">Here's</a> my SoundCloud!
                     </p>
                 </Col>
-                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
-                    <img src={doughnut} style={{width: '80%'}}/>
-                </Col>
-            </FullPageRow>
-            <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
                 <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
                     <iframe width="80%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
@@ -144,15 +142,17 @@ export default function Projects(props) {
                         href="https://soundcloud.com/chocolate-milk-music/presidents" title="Presidents" target="_blank"
                         style={{color: '#cccccc', textDecoration: 'none'}}>Presidents</a></div>
                 </Col>
+            </FullPageRow>
+            <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
+                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
+                    <img src={doughnut} style={{width: '80%'}}/>
+                </Col>
                 <Col md={4} className="my-auto">
-                    <h2>Music</h2>
+                    <h2>3D Modelling</h2>
                     <p>
-                        I've been producing electronic music and hip hop for a really long time. Here's something I
-                        dropped a couple years ago, it samples Nas's verses from <i>The World Is Yours</i> as well as
-                        clips of Brian Kernighan and DJ Premier.
-                    </p>
-                    <p>
-                        <a href="https://soundcloud.com/chocolate-milk-music" target="_blank">Here's</a> my SoundCloud!
+                        I'm currently learning how to create and texture 3D models with Blender. I'm currently following
+                        Blender Guru's tutorials, but I'll be starting my own project soon! I'll update this page when I
+                        do.
                     </p>
                 </Col>
             </FullPageRow>
