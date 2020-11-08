@@ -91,8 +91,8 @@ export default function Academics() {
                                         implementing it as well as creating all the assets.
                                         <br/>
                                         <a href="https://github.com/rikingurditta/csc207" target="_blank">Here</a> is my
-                                        course project. (Yes, all the <i>beautiful</i> art for Bomberman was done by
-                                        me.)
+                                        course project. (Yes, almost all the <i>beautiful</i> art for Bomberman was done
+                                        by me.)
                                     </p>
                                 </Expandable>
                             </li>
@@ -120,17 +120,18 @@ export default function Academics() {
                                         actually work under the hood, the cool stuff you can do with algorithms like
                                         DFS, and cool analysis techniques like decision trees.<br/>
                                         <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are
-                                        my notes for the
-                                        course.
+                                        my notes for the course.
                                     </p>
                                 </Expandable>
                             </li>
                             <li>
                                 <Expandable inside="CSC369 - Operating systems">
                                     <p className="expand-text">
-                                        This course had some pretty interesting and important material material, and the
+                                        This course had some pretty interesting and important material, and the
                                         first assignment (design and implement your own file system) was pretty fun. But
-                                        it was not organized very well, and it was <i>a lot</i> of work.
+                                        it was not organized very well, and it was <i>a lot</i> of work.<br/>
+                                        <a href="https://rikingurditta.github.io/csc369/" target="_blank">Here</a> are
+                                        my notes for the course.
                                     </p>
                                 </Expandable>
                             </li>
@@ -196,6 +197,10 @@ export default function Academics() {
                         <li>
                             <a href="https://rikingurditta.github.io/csc263/" target="_blank">CSC263 - Data structures
                                 and analysis</a>
+                        </li>
+                        <li>
+                            <a href="https://rikingurditta.github.io/csc369/" target="_blank">CSC369 - Operating
+                                systems</a>
                         </li>
                         <li>
                             <a href="https://rikingurditta.github.io/csc373/" target="_blank">CSC373 - Algorithm design,
