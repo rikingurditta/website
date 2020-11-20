@@ -30,9 +30,8 @@ export default function Homepage() {
                 <Col md={5} lg={4} className="my-auto">
                     <h2>What I'm up to</h2>
                     <p>
-                        I'm currently looking for an internship! Aside from that, I'm organizing UTCG events, modelling
-                        doughnuts in Blender, making beats, learning abstract algebra, and implementing geometry
-                        processing algorithms.
+                        Usually, I'm organizing UTCG events, setting monkeys on fire in Blender, making beats, creating
+                        physics simulations, learning abstract algebra, and implementing geometry processing algorithms.
                         <br/>
                         <Link to="/projects" push>Check out my projects!</Link>
                     </p>

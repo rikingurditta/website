@@ -19,8 +19,8 @@ export default function Academics() {
                     <h2>Teaching</h2>
                 </Col>
                 <Col md={4} className="my-auto">
-                    <p>This fall semester I'm a TA for MAT135 - Calculus 1. This is my first time as a TA, so hopefully
-                        it goes well!</p>
+                    <p>This fall semester I'm a TA for MAT135 - Calculus 1. This is my first time as a TA, but it's
+                        going well so far!</p>
                     {/*<p>*/}
                     {/*    <a href="https://koalastothemax.com/" target="_blank">Here's</a> a link to some relevant TAing*/}
                     {/*    stuff.*/}
