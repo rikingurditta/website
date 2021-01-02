@@ -37,31 +37,30 @@
     }
 }
 
-h1 h2 h3 {
+html {
     text-align: left;
 }
 
-p {
-    text-align: left;
-    font-size: 14pt;
+p, span, ul {
+    font-size: 12pt;
 }
 
-span {
-    text-align: left;
-    font-size: 14pt;
+.expand-text {
+    font-size: 12pt;
+    width: 95%;
 }
 
-ul {
-    text-align: left;
-    font-size: 14pt;
-}
+@media screen and (min-width: 768px) {
+    p, span, ul {
+        font-size: 14pt;
+    }
+    .expand-text {
+        font-size: 13pt;
+    }
 
+}
 .text-content {
     padding: 25px 0 25px 0;
 }
 
-.expand-text {
-    font-size: 13pt;
-    width: 95%;
-}
 @import "~bootstrap/scss/bootstrap";

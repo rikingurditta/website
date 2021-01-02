@@ -24,10 +24,7 @@ export default function Homepage() {
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#FFEEEE'}}>
-                <Col md={5} lg={4} className="my-auto" style={{textAlign: 'center'}}>
-                    <img src={suzanne} style={{width: '80%'}} alt="image goes here"/>
-                </Col>
-                <Col md={5} lg={4} className="my-auto">
+                <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>What I'm up to</h2>
                     <p>
                         Usually, I'm organizing UTCG events, setting monkeys on fire in Blender, making beats, creating
@@ -35,6 +32,9 @@ export default function Homepage() {
                         <br/>
                         <Link to="/projects" push>Check out my projects!</Link>
                     </p>
+                </Col>
+                <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
+                    <img src={suzanne} style={{width: '80%'}} alt="image goes here"/>
                 </Col>
             </FullPageRow>
         </Container>

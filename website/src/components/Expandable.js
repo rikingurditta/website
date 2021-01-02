@@ -6,7 +6,7 @@ export default function Expandable(props) {
         <div style={props.style}>
             <span onClick={() => setExpanded(!expanded)}
                   style={{cursor: 'pointer', textDecoration: 'underline'}}>
-                {props.inside} {expanded ? '-' : '+'}
+                {props.outside} {expanded ? '-' : '+'}
             </span>
             <div hidden={!expanded}>
                 {props.children}

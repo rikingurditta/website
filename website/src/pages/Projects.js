@@ -105,12 +105,7 @@ export default function Projects(props) {
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
-                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
-                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/PJKzzpyJ2fo" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen/>
-                </Col>
-                <Col md={4} className="my-auto">
+                <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>Bomberman</h2>
                     <p>
                         For my CSC207 - Software Design project, my group made three Android games that allowed for
@@ -119,6 +114,11 @@ export default function Projects(props) {
                     <p>
                         <a href="https://github.com/rikingurditta/csc207" target="_blank">Here's</a> the GitHub repo!
                     </p>
+                </Col>
+                <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
+                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/PJKzzpyJ2fo" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen/>
                 </Col>
             </FullPageRow>
             <FullPageRow>
@@ -144,16 +144,16 @@ export default function Projects(props) {
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>
-                <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
-                    <img src={doughnut} style={{width: '80%'}}/>
-                </Col>
-                <Col md={4} className="my-auto">
+                <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>3D Modelling</h2>
                     <p>
                         I'm currently learning how to create and texture 3D models with Blender. I'm currently following
                         Blender Guru's tutorials, but I'll be starting my own project soon! I'll update this page when I
                         do.
                     </p>
+                </Col>
+                <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
+                    <img src={doughnut} style={{width: '80%'}} alt="donut"/>
                 </Col>
             </FullPageRow>
         </Container>
