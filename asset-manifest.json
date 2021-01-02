@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ec751eb.chunk.css",
-    "main.js": "/static/js/main.92c9752c.chunk.js",
-    "main.js.map": "/static/js/main.92c9752c.chunk.js.map",
+    "main.css": "/static/css/main.0f416d87.chunk.css",
+    "main.js": "/static/js/main.455a2e8b.chunk.js",
+    "main.js.map": "/static/js/main.455a2e8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
     "static/js/2.abef140c.chunk.js": "/static/js/2.abef140c.chunk.js",
     "static/js/2.abef140c.chunk.js.map": "/static/js/2.abef140c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c6a19a938a533991ecc6b9ab879f3f01.js": "/precache-manifest.c6a19a938a533991ecc6b9ab879f3f01.js",
+    "precache-manifest.72a17c9ab0d29d9437a9bd51784e0c9b.js": "/precache-manifest.72a17c9ab0d29d9437a9bd51784e0c9b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6ec751eb.chunk.css.map": "/static/css/main.6ec751eb.chunk.css.map",
+    "static/css/main.0f416d87.chunk.css.map": "/static/css/main.0f416d87.chunk.css.map",
     "static/js/2.abef140c.chunk.js.LICENSE.txt": "/static/js/2.abef140c.chunk.js.LICENSE.txt",
     "static/media/02_doughnut_end_of_lvl_2.png": "/static/media/02_doughnut_end_of_lvl_2.7d8c2eab.png",
     "static/media/origami elephant cropped.jpg": "/static/media/origami elephant cropped.8ae59f43.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/js/2.abef140c.chunk.js",
-    "static/css/main.6ec751eb.chunk.css",
-    "static/js/main.92c9752c.chunk.js"
+    "static/css/main.0f416d87.chunk.css",
+    "static/js/main.455a2e8b.chunk.js"
   ]
 }
