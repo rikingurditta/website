@@ -44,7 +44,14 @@ export default function Academics() {
                     </p>
                     <Expandable outside={<span>Courses I'm taking this semester</span>}>
                         <ul>
-                            <li>CSC317 - Computer graphics</li>
+                            <li>
+                                <Expandable outside={<span>CSC317 - Computer graphics</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/csc317" target="_blank">Here</a> are
+                                        my notes for the course.
+                                    </p>
+                                </Expandable>
+                            </li>
                             <li>CSC367 - Parallel programming</li>
                         </ul>
                     </Expandable>
