@@ -145,14 +145,7 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>
-                                <Expandable
-                                    outside={<span>CSC419 - Geometry processing (Fall 2020)</span>}>
-                                    <p className="expand-text">
-
-                                    </p>
-                                </Expandable>
-                            </li>
+                            <li> CSC419 - Geometry processing (Fall 2020)</li>
                         </ul>
                     </Expandable>
                 </Col>
@@ -175,7 +168,14 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>MAT357 - Differential geometry</li>
+                            <li>
+                                <Expandable outside={<span>MAT367 - Differential geometry</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/mat367/" target="_blank">Here</a> are
+                                        my notes for the course (in-progress).
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
                     <br/>
@@ -277,6 +277,10 @@ export default function Academics() {
                                 and analysis</a>
                         </li>
                         <li>
+                            <a href="https://rikingurditta.github.io/csc317/" target="_blank">CSC317 - Computer
+                                graphics</a> (in progress)
+                        </li>
+                        <li>
                             <a href="https://rikingurditta.github.io/csc369/" target="_blank">CSC369 - Operating
                                 systems</a>
                         </li>
@@ -293,6 +297,10 @@ export default function Academics() {
                                 and rings</a> (in progress)
                         </li>
                         <li>
+                            <a href="https://rikingurditta.github.io/mat367/" target="_blank">MAT367 - Differential
+                                Geometry</a> (in progress)
+                        </li>
+                        <li>
                             <a href="https://rikingurditta.github.io/lin200/" target="_blank">LIN200 - Intro to
                                 Language</a>
                         </li>
@@ -300,5 +308,5 @@ export default function Academics() {
                 </Col>
             </Row>
         </Container>
-    )
+)
 }
