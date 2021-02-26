@@ -168,6 +168,7 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
+                            <li>MAT315 - Introduction to Number Theory</li>
                             <li>
                                 <Expandable outside={<span>MAT367 - Differential geometry</span>}>
                                     <p className="expand-text">
@@ -220,19 +221,6 @@ export default function Academics() {
                         I'm interested in a lot of different stuff. Here are some courses I've taken at UofT that aren't
                         about computer science or mathematics.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>PHL265 - Intro to Political Philosophy</span>}>
-                                    <p className="expand-text">
-                                        I'm taking this course because I think it'll help me with overthrowing the
-                                        state.
-                                    </p>
-                                </Expandable>
-                            </li>
-                        </ul>
-                    </Expandable>
-                    <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
                             <li>
@@ -308,5 +296,5 @@ export default function Academics() {
                 </Col>
             </Row>
         </Container>
-)
+    )
 }

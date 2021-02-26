@@ -27,8 +27,8 @@ export default function Homepage() {
                 <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>What I'm up to</h2>
                     <p>
-                        Usually, I'm organizing UTCG events, setting monkeys on fire in Blender, making beats, creating
-                        physics simulations, learning abstract algebra, and implementing geometry processing algorithms.
+                        Usually, I'm organizing UTCG events, setting monkeys on fire in Blender, making beats, thinking
+                        about 4 dimensional spaces, learning abstract algebra, and listening to beep boop music.
                         <br/>
                         <Link to="/projects" push>Check out my projects!</Link>
                     </p>
