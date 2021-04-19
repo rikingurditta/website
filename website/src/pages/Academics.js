@@ -42,19 +42,10 @@ export default function Academics() {
                         student volunteer for a huge computer graphics conference called <a target="_blank"
                                                                                             href="https://s2020.siggraph.org/">SIGGRAPH</a>.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>CSC317 - Computer graphics</span>}>
-                                    <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/csc317" target="_blank">Here</a> are
-                                        my notes for the course.
-                                    </p>
-                                </Expandable>
-                            </li>
-                            <li>CSC367 - Parallel programming</li>
-                        </ul>
-                    </Expandable>
+                    {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
+                    {/*    <ul>*/}
+                    {/*    </ul>*/}
+                    {/*</Expandable>*/}
                     <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
@@ -100,6 +91,31 @@ export default function Academics() {
                                         DFS, and cool analysis techniques like decision trees.<br/>
                                         <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are
                                         my notes for the course.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CSC317 - Computer graphics (Winter 2021)</span>}>
+                                    <p className="expand-text">
+                                        I really liked the content of this course, but it wasn't run very well when I
+                                        took it. And it's kinda stressful with weekly assignments, which are always
+                                        quite a bit of work. It was pretty fun making a raytracer though!
+                                        Here's bubberducky <a href="bubberducky.png" target="_blank">
+                                        vibing</a>, and here he is <a href="bubberducky_wistful.png" target="_blank">
+                                        being wistful</a>.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CSC367 - Parallel programming (Winter 2021)</span>}>
+                                    <p className="expand-text">
+                                        I hated this course. The assignments were way too much work, the prof was very
+                                        insensitive, and the TAs were incredibly condescending and unhelpful. I guess
+                                        the content was interesting. The one thing I loved in this course was was my
+                                        partner, Sean. What a legend.<br/>
+                                        <a href="https://rikingurditta.github.io/csc367/condensed"
+                                           target="_blank">Here</a> are my notes for the first half-ish of the course,
+                                        made while studying for the midterm.
                                     </p>
                                 </Expandable>
                             </li>
@@ -158,37 +174,21 @@ export default function Academics() {
                     <p>
                         My second major is in math, mainly because I like math.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>MAT347 - Groups, rings, and fields (Fall-Winter)</span>}>
-                                    <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/mat347/" target="_blank">Here</a> are
-                                        my notes for the course (in-progress).
-                                    </p>
-                                </Expandable>
-                            </li>
-                            <li>MAT315 - Introduction to Number Theory</li>
-                            <li>
-                                <Expandable outside={<span>MAT367 - Differential geometry</span>}>
-                                    <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/mat367/" target="_blank">Here</a> are
-                                        my notes for the course (in-progress).
-                                    </p>
-                                </Expandable>
-                            </li>
-                        </ul>
-                    </Expandable>
+                    {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
+                    {/*    <ul>*/}
+                    {/*    </ul>*/}
+                    {/*</Expandable>*/}
                     <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
-                            <li>MAT157 - Analysis 1</li>
-                            <li>MAT223 - Linear algebra 1</li>
-                            <li>MAT237 - Multivariable calculus</li>
-                            <li>MAT244 - Intro to ordinary differential equations</li>
-                            <li>MAT247 - Algebra 2</li>
+                            <li>MAT157 - Analysis 1 (Fall 2018 - Winter 2019)</li>
+                            <li>MAT223 - Linear algebra 1 (Winter 2019)</li>
+                            <li>MAT237 - Multivariable calculus (Fall 2019 - Winter 2020)</li>
+                            <li>MAT244 - Intro to ordinary differential equations (Fall 2019)</li>
+                            <li>MAT247 - Algebra 2 (Winter 2020)</li>
+                            <li>MAT315 - Introduction to Number Theory (Winter 2021)</li>
                             <li>
-                                <Expandable outside={<span>MAT327 - Intro to topology</span>}>
+                                <Expandable outside={<span>MAT327 - Intro to topology (Summer 2020)</span>}>
                                     <p className="expand-text">
                                         This course was great! I learned a lot about point-set topology, and got a nice
                                         taste of algebraic topology. The professor, <a href="https://malors.com/"
@@ -196,6 +196,23 @@ export default function Academics() {
                                         was tough on us but he really cared about our learning.
                                         <br/>
                                         <a href="https://rikingurditta.github.io/mat327/" target="_blank">Here</a> are
+                                        my notes for the course.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable
+                                    outside={<span>MAT347 - Groups, rings, and fields (Fall 2020 - Winter 2021)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/mat347/" target="_blank">Here</a> are
+                                        my notes for the course.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>MAT367 - Differential geometry (Winter 2021)</span>}>
+                                    <p className="expand-text">
+                                        <a href="https://rikingurditta.github.io/mat367/" target="_blank">Here</a> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -265,10 +282,6 @@ export default function Academics() {
                                 and analysis</a>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc317/" target="_blank">CSC317 - Computer
-                                graphics</a> (in progress)
-                        </li>
-                        <li>
                             <a href="https://rikingurditta.github.io/csc369/" target="_blank">CSC369 - Operating
                                 systems</a>
                         </li>
@@ -282,11 +295,11 @@ export default function Academics() {
                         </li>
                         <li>
                             <a href="https://rikingurditta.github.io/mat347/" target="_blank">MAT347 - Groups, fields,
-                                and rings</a> (in progress)
+                                and rings</a>
                         </li>
                         <li>
                             <a href="https://rikingurditta.github.io/mat367/" target="_blank">MAT367 - Differential
-                                Geometry</a> (in progress)
+                                Geometry</a>
                         </li>
                         <li>
                             <a href="https://rikingurditta.github.io/lin200/" target="_blank">LIN200 - Intro to

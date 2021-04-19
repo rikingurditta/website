@@ -2,6 +2,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import React from "react";
 import Container from "react-bootstrap/Container";
+import lastfm_logo from "../images/lastfm.png";
 
 export default function Footer(props) {
     return (
@@ -13,7 +14,7 @@ export default function Footer(props) {
                 </Col>
                 <Col md={4} className="my-auto">
                     <p style={{textAlign: 'center'}}>
-                        <a href="https://github.com/rikingurditta">
+                        <a href="https://github.com/rikingurditta" target="_blank">
                             <svg className="octicon octicon-mark-github v-align-middle" width="64" height="64"
                                  viewBox="0 0 16 16"
                                  version="1.1" aria-hidden="true">
@@ -22,7 +23,7 @@ export default function Footer(props) {
                             </svg>
                         </a>
                         {"\t"}
-                        <a href="https://www.linkedin.com/in/rikin-gurditta/">
+                        <a href="https://www.linkedin.com/in/rikin-gurditta" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" data-supported-dps="64x64"
                                  viewBox="0 0 50 50"
                                  focusable="false">
@@ -35,11 +36,18 @@ export default function Footer(props) {
                                 </g>
                             </svg>
                         </a>
+                        {"\t"}
+                        <a href="https://www.last.fm/user/galactustrombon" target="_blank">
+                            <img src={lastfm_logo}
+                                 alt="lastfm"
+                                 style={{width: '64px'}}/>
+                        </a>
                     </p>
                     <p style={{fontSize: '12px', textAlign: 'center'}}>
                         Personal email: <a href="mailto:rikingurditta@gmail.com">rikingurditta@gmail.com</a>
                         <br/>
-                        School email: <a href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
+                        School email: <a
+                        href="mailto:rikin.gurditta@mail.utoronto.ca">rikin.gurditta@mail.utoronto.ca</a>
                         <br/>
                         I use he/him pronouns
                     </p>
