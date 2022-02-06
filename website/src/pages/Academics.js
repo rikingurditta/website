@@ -37,10 +37,10 @@ export default function Academics() {
                 <Col md={4} className="my-auto">
                     <p>
                         I'm focusing in computer graphics, and I hope to one day work in the field, either doing
-                        research or working on cool stuff like VR tech or movie rendering. This year I'm the VP External
-                        for <a href="https://utcg.club/" target="_blank">UofT Computer Graphics Club</a>, and I was a
-                        student volunteer for a huge computer graphics conference called <a target="_blank"
-                                                                                            href="https://s2020.siggraph.org/">SIGGRAPH</a>.
+                        research or working on cool stuff like VR tech or movie rendering. This year I'm the President
+                        of <a href="https://utcg.club/" target="_blank">UofT Computer Graphics Club</a>, and I was a
+                        student volunteer at <a target="_blank" href="https://s2020.siggraph.org/">SIGGRAPH 2020</a>, a
+                        huge computer graphics conference.
                     </p>
                     {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
                     {/*    <ul>*/}
@@ -254,7 +254,7 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
-                            <li>ENV200 - Intro to Environmental Studies (Fall 2019)</li>
+                            <li>ENV100 - Intro to Environmental Studies (Fall 2019)</li>
                             <li>CCR199 - Russia at War (Winter 2019)</li>
                             <li>EEB215 - Conservation Biology (Summer 2020)</li>
                             <li>

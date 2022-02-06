@@ -15,6 +15,29 @@ export default function Experience() {
             </TitleRow>
             <Row className="justify-content-center text-content">
                 <Col md={4}>
+                    <h2>AMD</h2>
+                    <p>
+                        Windows Driver Developer Intern
+                        <br/>
+                        May 2021 - August 2022
+                    </p>
+                </Col>
+                <Col md={4}>
+                    <p>
+                        <a href="https://www.amd.com" target="_blank">AMD</a> is a semiconductor company, well-known for
+                        its GPUs and CPUs. I'm currently an intern in the team working on the Windows Kernel Mode
+                        Driver, which is the software that runs at the OS-level to enable GPU hardware to work with a
+                        computer.
+                    </p>
+                    <p>
+                        As an intern, I've worked on a number of projects that are under NDA. However, I can say that
+                        I work with code that manages memory and scheduling for the GPU, so that it can manage its data
+                        and tasks most effectively.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="justify-content-center text-content">
+                <Col md={4}>
                     <h2>Centivizer</h2>
                     <p>
                         Game/frontend development

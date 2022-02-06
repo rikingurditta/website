@@ -27,8 +27,9 @@ export default function Homepage() {
                 <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>What I'm up to</h2>
                     <p>
-                        Usually, I'm making sick beats, playing Dark Souls, coding cloth simulations, running, listening
-                        to underground hip hop, watching Cowboy Bebop, and learning de Rham cohomology theory.
+                        Usually, I'm making sick beats, playing Sekiro: Shadows Die Twice, running, listening to
+                        underground hip hop, obsessing over public transit, cycling (when it's not icy), and reading Le
+                        Transperceneige.
                         <br/>
                         <Link to="/projects" push>Check out my projects!</Link>
                     </p>
