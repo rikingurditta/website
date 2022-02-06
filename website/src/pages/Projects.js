@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import FullPageRow from "../components/FullPageRow";
 import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
+import NewTabLink from "../components/NewTabLink";
 import compile from "../TSRegex/js/compiletest";
 import {wellFormedBrackets} from "../TSRegex/js/Lexical";
 import doughnut from "../images/02_doughnut_end_of_lvl_2.png";
@@ -74,15 +75,16 @@ export default function Projects(props) {
                 <Col md={4} className="my-auto">
                     <h2>Regular Expression Compiler</h2>
                     <p>
-                        My theory of computation class briefly mentioned <a
-                        href="https://en.wikipedia.org/wiki/Thompson%27s_construction" target="_blank">Thompson's
-                        algorithm</a>. It seemed interesting, so I decided to implement it as a compiler for a subset of
-                        Perl RegEx. It supports quantifiers with <code>{"re{m,n}"}?+*</code>, character groups
+                        My theory of computation class briefly mentioned <NewTabLink
+                        href="https://en.wikipedia.org/wiki/Thompson%27s_construction">Thompson's
+                        algorithm</NewTabLink>. It seemed interesting, so I decided to implement it as a compiler for a
+                        subset of Perl RegEx. It supports quantifiers with <code>{"re{m,n}"}?+*</code>, character groups
                         with <code>[chars]</code>, union with <code>a|b</code>, the wildcards <code>.\w\d</code>, and
                         capture groups with <code>(parentheses)</code>.
                     </p>
                     <p>
-                        <a href="https://github.com/rikingurditta/TSRegex" target="_blank">Here's</a> the GitHub repo!
+                        <NewTabLink href="https://github.com/rikingurditta/TSRegex">Here's</NewTabLink>
+                        the GitHub repo!
                     </p>
                 </Col>
                 <Col md={4} className="my-auto">
@@ -112,11 +114,13 @@ export default function Projects(props) {
                         customization and online syncing. Within the group, my partner and I made a clone of Bomberman.
                     </p>
                     <p>
-                        <a href="https://github.com/rikingurditta/csc207" target="_blank">Here's</a> the GitHub repo!
+                        <NewTabLink href="https://github.com/rikingurditta/csc207">Here's</NewTabLink>
+                        the GitHub repo!
                     </p>
                 </Col>
                 <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
-                    <iframe width="100%" height="315px" src="https://www.youtube.com/embed/PJKzzpyJ2fo" frameBorder="0"
+                    <iframe title="Bomberman" width="100%" height="315px" src="https://www.youtube.com/embed/PJKzzpyJ2fo"
+                            frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen/>
                 </Col>
@@ -130,17 +134,18 @@ export default function Projects(props) {
                         clips of Brian Kernighan and DJ Premier.
                     </p>
                     <p>
-                        <a href="https://soundcloud.com/chocolate-milk-music" target="_blank">Here's</a> my SoundCloud!
+                        <NewTabLink href="https://soundcloud.com/chocolate-milk-music">Here's</NewTabLink>
+                        my SoundCloud!
                     </p>
                 </Col>
                 <Col md={4} className="my-auto" style={{textAlign: 'center'}}>
-                    <iframe width="80%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
+                    <iframe title="Presidents" width="80%" height="350px" scrolling="no" frameBorder="no" allow="autoplay"
                             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/487898616&color=%236c4149&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"/>
                     <div style={soundcloud_div_style}>
-                        <a href="https://soundcloud.com/chocolate-milk-music" title="Chocolate Milk" target="_blank"
-                           style={{color: '#cccccc', textDecoration: 'none',}}>Chocolate Milk</a> · <a
-                        href="https://soundcloud.com/chocolate-milk-music/presidents" title="Presidents" target="_blank"
-                        style={{color: '#cccccc', textDecoration: 'none'}}>Presidents</a></div>
+                        <NewTabLink href="https://soundcloud.com/chocolate-milk-music" title="Chocolate Milk"
+                                    style={{color: '#cccccc', textDecoration: 'none',}}>Chocolate Milk</NewTabLink>> · <NewTabLink
+                        href="https://soundcloud.com/chocolate-milk-music/presidents" title="Presidents"
+                        style={{color: '#cccccc', textDecoration: 'none'}}>Presidents</NewTabLink></div>
                 </Col>
             </FullPageRow>
             <FullPageRow style={{backgroundColor: '#EEEEFF'}}>

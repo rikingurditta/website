@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.scss';
+import './App.css';
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Projects from "./pages/Projects";

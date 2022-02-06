@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
 .App {
-    //text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -41,6 +43,10 @@ html {
     text-align: left;
 }
 
+body {
+    font-family: 'Source Sans Pro', 'Ubuntu', sans-serif;
+}
+
 p, span, ul {
     font-size: 12pt;
 }
@@ -62,5 +68,3 @@ p, span, ul {
 .text-content {
     padding: 25px 0 25px 0;
 }
-
-@import "~bootstrap/scss/bootstrap";

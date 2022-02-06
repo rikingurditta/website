@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import TitleRow from "../components/TitleRow";
+import NewTabLink from "../components/NewTabLink";
 import Row from "react-bootstrap/Row";
 
 export default function Experience() {
@@ -9,7 +10,7 @@ export default function Experience() {
         <Container fluid>
             <TitleRow style={{backgroundColor: '#FFDDDD'}}>
                 <Col md={4} className="my-auto">
-                    <h1>My experience</h1>
+                    <h1>Experience</h1>
                 </Col>
                 <Col md={4}/>
             </TitleRow>
@@ -24,7 +25,7 @@ export default function Experience() {
                 </Col>
                 <Col md={4}>
                     <p>
-                        <a href="https://www.amd.com" target="_blank">AMD</a> is a semiconductor company, well-known for
+                        <NewTabLink href="https://www.amd.com">AMD</NewTabLink> is a semiconductor company, well-known for
                         its GPUs and CPUs. I'm currently an intern in the team working on the Windows Kernel Mode
                         Driver, which is the software that runs at the OS-level to enable GPU hardware to work with a
                         computer.
@@ -47,8 +48,8 @@ export default function Experience() {
                 </Col>
                 <Col md={4}>
                     <p>
-                        <a href="https://www.centivizer.com/" target="_blank">Centivizer</a> is a startup based in
-                        UofT's <a href="https://imedia.mie.utoronto.ca/" target="_blank">Interactive Media Lab</a>.
+                        <NewTabLink href="https://www.centivizer.com/">Centivizer</NewTabLink> is a startup based in
+                        UofT's <NewTabLink href="https://imedia.mie.utoronto.ca/">Interactive Media Lab</NewTabLink>.
                     </p>
                     <p>
                         In 2019, I worked on a 3D driving simulator game for the <i>Experiential Centivizer</i> project.
@@ -68,7 +69,7 @@ export default function Experience() {
                         <li>caching and other performance/stability concerns</li>
                         <li>planning, designing, and implementing full rewrite of the codebase with React.js</li>
                         <li>
-                            the <a href="https://clyp.it/sdjwuirh" target="_blank">music</a> and sound design
+                            the <NewTabLink href="https://clyp.it/sdjwuirh">music</NewTabLink> and sound design
                             for the game
                         </li>
                     </ul>
@@ -85,7 +86,7 @@ export default function Experience() {
                 </Col>
                 <Col md={4}>
                     <p>
-                        <a href="https://www.national.ca/en/" target="_blank">NATIONAL Public Relations</a> is a large
+                        <NewTabLink href="https://www.national.ca/en/">NATIONAL Public Relations</NewTabLink> is a large
                         Canadian public relations company. I was an intern for the Research and Strategy team at their
                         Toronto office.
                     </p>
@@ -118,7 +119,7 @@ export default function Experience() {
                 </Col>
                 <Col md={4}>
                     <p>
-                        <a href="https://utcg.club" target="_blank">UTCG</a> organizes workshops/tutorials, research
+                        <NewTabLink href="https://utcg.club">UTCG</NewTabLink> organizes workshops/tutorials, research
                         talks, industry events, field trips, and social events for computer graphics enthusiasts at
                         UofT.
                     </p>
@@ -126,12 +127,13 @@ export default function Experience() {
                         As an exec/VP, I've:
                     </p>
                     <ul>
-                        <li>worked on (and currently update) the club's <a href="https://utcg.club"
-                                                                           target="_blank">website</a></li>
                         <li>
-                            organized the Rapid Fire Research Talks event, where <a
-                            href="https://www.dgp.toronto.edu/" target="_blank">DGP</a> researchers presented their
-                            own work so that students could see research happening at UofT
+                            worked on (and currently update) the club's <NewTabLink href="https://utcg.club">website</NewTabLink>
+                        </li>
+                        <li>
+                            organized the Rapid Fire Research Talks event, where <NewTabLink
+                            href="https://www.dgp.toronto.edu/">DGP</NewTabLink> researchers presented their own work
+                            so that students could see research happening at UofT
                         </li>
                         <li>
                             contributed to organizing UTCG Projects, an initiative to help students create projects

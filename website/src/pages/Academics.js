@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Expandable from "../components/Expandable";
+import NewTabLink from "../components/NewTabLink";
 import TitleRow from "../components/TitleRow";
 
 export default function Academics() {
@@ -24,8 +25,8 @@ export default function Academics() {
                         the future!
                     </p>
                     <p>
-                        If you were one of my students, <a href="https://forms.gle/WoSfM34xCnz4NRma7"
-                                                           target="_blank">here's</a> a link to my anonymous feedback
+                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
+                                                                    >here's</NewTabLink>a link to my anonymous feedback
                         form.
                     </p>
                 </Col>
@@ -38,8 +39,8 @@ export default function Academics() {
                     <p>
                         I'm focusing in computer graphics, and I hope to one day work in the field, either doing
                         research or working on cool stuff like VR tech or movie rendering. This year I'm the President
-                        of <a href="https://utcg.club/" target="_blank">UofT Computer Graphics Club</a>, and I was a
-                        student volunteer at <a target="_blank" href="https://s2020.siggraph.org/">SIGGRAPH 2020</a>, a
+                        of <NewTabLink href="https://utcg.club/">UofT Computer Graphics Club</NewTabLink>, and I was a
+                        student volunteer at <NewTabLink href="https://s2020.siggraph.org/">SIGGRAPH 2020</NewTabLink>, a
                         huge computer graphics conference.
                     </p>
                     {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
@@ -60,7 +61,7 @@ export default function Academics() {
                                         was a lot of fun not only designing the software architecture, but also
                                         implementing it as well as creating all the assets.
                                         <br/>
-                                        <a href="https://github.com/rikingurditta/csc207" target="_blank">Here</a> is my
+                                        <NewTabLink href="https://github.com/rikingurditta/csc207">Here</NewTabLink> is my
                                         course project. (Yes, almost all the <i>beautiful</i> art for Bomberman was done
                                         by me.)
                                     </p>
@@ -89,7 +90,7 @@ export default function Academics() {
                                         I enjoyed this course! It was cool seeing how data structures I've been using
                                         actually work under the hood, the cool stuff you can do with algorithms like
                                         DFS, and cool analysis techniques like decision trees.<br/>
-                                        <a href="https://rikingurditta.github.io/csc263/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/csc263/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -100,9 +101,9 @@ export default function Academics() {
                                         I really liked the content of this course, but it wasn't run very well when I
                                         took it. And it's kinda stressful with weekly assignments, which are always
                                         quite a bit of work. It was pretty fun making a raytracer though!
-                                        Here's bubberducky <a href="bubberducky.png" target="_blank">
-                                        vibing</a>, and here he is <a href="bubberducky_wistful.png" target="_blank">
-                                        being wistful</a>.
+                                        Here's bubberducky <NewTabLink href="bubberducky.png">
+                                        vibing</NewTabLink>, and here he is <NewTabLink href="bubberducky_wistful.png">
+                                        being wistful</NewTabLink>.
                                     </p>
                                 </Expandable>
                             </li>
@@ -113,8 +114,8 @@ export default function Academics() {
                                         insensitive, and the TAs were incredibly condescending and unhelpful. I guess
                                         the content was interesting. The one thing I loved in this course was was my
                                         partner, Sean. What a legend.<br/>
-                                        <a href="https://rikingurditta.github.io/csc367/condensed"
-                                           target="_blank">Here</a> are my notes for the first half-ish of the course,
+                                        <NewTabLink href="https://rikingurditta.github.io/csc367/condensed"
+                                          >Here</NewTabLink> are my notes for the first half-ish of the course,
                                         made while studying for the midterm.
                                     </p>
                                 </Expandable>
@@ -125,7 +126,7 @@ export default function Academics() {
                                         This course had some pretty interesting and important material, and the
                                         first assignment (design and implement your own file system) was pretty fun. But
                                         it was not organized very well, and it was <i>a lot</i> of work.<br/>
-                                        <a href="https://rikingurditta.github.io/csc369/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/csc369/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -135,8 +136,8 @@ export default function Academics() {
                                     outside={
                                         <span>CSC373 - Algorithm design, analysis, and complexity (Fall 2020)</span>}>
                                     <p className="expand-text">
-                                        This course was a nightmare. <a href="https://rikingurditta.github.io/csc373/"
-                                                                        target="_blank">Here</a> are my notes on most of
+                                        This course was a nightmare. <NewTabLink href="https://rikingurditta.github.io/csc373/"
+                                                                       >Here</NewTabLink> are my notes on most of
                                         the content.
                                     </p>
                                 </Expandable>
@@ -150,13 +151,13 @@ export default function Academics() {
                                         use the finite element method to simulate continuous materials. We used this to
                                         simulate some pretty realistic-looking cloth! Then we simulated rigid bodies,
                                         which were pretty tricky. For my final project, my partner and I made a pretty
-                                        crappy fluid simulator. <a
+                                        crappy fluid simulator. <NewTabLink
                                         href="https://github.com/rikingurditta/csc417-tilt-paint"
-                                        target="_blank">Here</a> it is!
+                                       >Here</NewTabLink> it is!
                                         <br/>
                                         The prof was great and the assignments were fun, though they are a lot of
-                                        work. <a href="https://www.youtube.com/channel/UCIM0HrQVDcUYdrZvSwuUJgA"
-                                                 target="_blank">Here's</a> the prof's YouTube channel with the lectures
+                                        work. <NewTabLink href="https://www.youtube.com/channel/UCIM0HrQVDcUYdrZvSwuUJgA"
+                                                >Here's</NewTabLink> the prof's YouTube channel with the lectures
                                         for the course. I didn't take any notes to be honest.
                                     </p>
                                 </Expandable>
@@ -191,11 +192,11 @@ export default function Academics() {
                                 <Expandable outside={<span>MAT327 - Intro to topology (Summer 2020)</span>}>
                                     <p className="expand-text">
                                         This course was great! I learned a lot about point-set topology, and got a nice
-                                        taste of algebraic topology. The professor, <a href="https://malors.com/"
-                                                                                       target="_blank">Malors</a>,
+                                        taste of algebraic topology. The professor, <NewTabLink href="https://malors.com/"
+                                                                                      >Malors</NewTabLink>,
                                         was tough on us but he really cared about our learning.
                                         <br/>
-                                        <a href="https://rikingurditta.github.io/mat327/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/mat327/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -204,7 +205,7 @@ export default function Academics() {
                                 <Expandable
                                     outside={<span>MAT347 - Groups, rings, and fields (Fall 2020 - Winter 2021)</span>}>
                                     <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/mat347/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/mat347/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -212,7 +213,7 @@ export default function Academics() {
                             <li>
                                 <Expandable outside={<span>MAT367 - Differential geometry (Winter 2021)</span>}>
                                     <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/mat367/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/mat367/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable>
@@ -249,8 +250,8 @@ export default function Academics() {
                                         it, but it's pretty spooky. I'll stick to math.
                                         <br/>
                                         They were pretty good courses though! Especially PHY151, which was taught by the
-                                        amazing <a href="https://www8.physics.utoronto.ca/~dfvj/" target="_blank">Daniel
-                                        F. V. James</a>. 😍
+                                        amazing <NewTabLink href="https://www8.physics.utoronto.ca/~dfvj/">Daniel
+                                        F. V. James</NewTabLink>. 😍
                                     </p>
                                 </Expandable>
                             </li>
@@ -260,7 +261,7 @@ export default function Academics() {
                             <li>
                                 <Expandable outside={<span>LIN200 - Intro to Language (Fall 2020)</span>}>
                                     <p className="expand-text">
-                                        <a href="https://rikingurditta.github.io/lin200/" target="_blank">Here</a> are
+                                        <NewTabLink href="https://rikingurditta.github.io/lin200/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
                                 </Expandable></li>
@@ -278,32 +279,32 @@ export default function Academics() {
                     </p>
                     <ul>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc263/" target="_blank">CSC263 - Data structures
-                                and analysis</a>
+                            <NewTabLink href="https://rikingurditta.github.io/csc263/">CSC263 - Data structures
+                                and analysis</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc369/" target="_blank">CSC369 - Operating
-                                systems</a>
+                            <NewTabLink href="https://rikingurditta.github.io/csc369/">CSC369 - Operating
+                                systems</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/csc373/" target="_blank">CSC373 - Algorithm design,
-                                analysis, and complexity</a>
+                            <NewTabLink href="https://rikingurditta.github.io/csc373/">CSC373 - Algorithm design,
+                                analysis, and complexity</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/mat327/" target="_blank">MAT327 - Intro to
-                                topology</a>
+                            <NewTabLink href="https://rikingurditta.github.io/mat327/">MAT327 - Intro to
+                                topology</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/mat347/" target="_blank">MAT347 - Groups, fields,
-                                and rings</a>
+                            <NewTabLink href="https://rikingurditta.github.io/mat347/">MAT347 - Groups, fields,
+                                and rings</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/mat367/" target="_blank">MAT367 - Differential
-                                Geometry</a>
+                            <NewTabLink href="https://rikingurditta.github.io/mat367/">MAT367 - Differential
+                                Geometry</NewTabLink>
                         </li>
                         <li>
-                            <a href="https://rikingurditta.github.io/lin200/" target="_blank">LIN200 - Intro to
-                                Language</a>
+                            <NewTabLink href="https://rikingurditta.github.io/lin200/">LIN200 - Intro to
+                                Language</NewTabLink>
                         </li>
                     </ul>
                 </Col>
