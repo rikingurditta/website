@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06e834ad.css",
-    "main.js": "/static/js/main.849cd22a.js",
+    "main.js": "/static/js/main.4cffc1d9.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/origami elephant cropped.jpg": "/static/media/origami elephant cropped.082d294ce8e1256ed8be.jpg",
     "static/media/02_doughnut_end_of_lvl_2.png": "/static/media/02_doughnut_end_of_lvl_2.170b4b940f09437cdd3a.png",
@@ -10,11 +10,11 @@
     "static/media/lastfm.png": "/static/media/lastfm.3df88222e56c5d86ca24.png",
     "index.html": "/index.html",
     "main.06e834ad.css.map": "/static/css/main.06e834ad.css.map",
-    "main.849cd22a.js.map": "/static/js/main.849cd22a.js.map",
+    "main.4cffc1d9.js.map": "/static/js/main.4cffc1d9.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06e834ad.css",
-    "static/js/main.849cd22a.js"
+    "static/js/main.4cffc1d9.js"
   ]
 }
