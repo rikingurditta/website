@@ -32,9 +32,9 @@ export default function Homepage() {
                 <Col md={4} lg={{span: 4, order: 2}} className="my-auto">
                     <h2>What I'm up to</h2>
                     <p>
-                        Usually, I'm making sick beats, playing Sekiro: Shadows Die Twice, running, listening to
-                        underground hip hop, obsessing over public transit, cycling (when it's not icy), and reading Le
-                        Transperceneige.
+                        Usually, I'm making sick beats, playing <i>Sekiro: Shadows Die Twice</i>, running, listening to
+                        underground hip hop, obsessing over public transit, cycling (when it's not icy), and reading <i>
+                        Le Transperceneige</i>.
                         <br/>
                         <Link to="/projects" push="true">Check out my projects!</Link>
                     </p>
