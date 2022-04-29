@@ -21,7 +21,7 @@ let soundcloud_div_style = {
 };
 
 
-export default function Projects(props) {
+export default function Projects() {
     let startRe = '\\w(i)([dgiknru]| ){8}\\1t{2}a+.*!?';
     let startString = 'rikin gurditta is cool!';
 
@@ -83,8 +83,7 @@ export default function Projects(props) {
                         capture groups with <code>(parentheses)</code>.
                     </p>
                     <p>
-                        <NewTabLink href="https://github.com/rikingurditta/TSRegex">Here's</NewTabLink>
-                        the GitHub repo!
+                        <NewTabLink href="https://github.com/rikingurditta/TSRegex">Here's</NewTabLink> the GitHub repo!
                     </p>
                 </Col>
                 <Col md={4} className="my-auto">
@@ -114,8 +113,7 @@ export default function Projects(props) {
                         customization and online syncing. Within the group, my partner and I made a clone of Bomberman.
                     </p>
                     <p>
-                        <NewTabLink href="https://github.com/rikingurditta/csc207">Here's</NewTabLink>
-                        the GitHub repo!
+                        <NewTabLink href="https://github.com/rikingurditta/csc207">Here's</NewTabLink> the GitHub repo!
                     </p>
                 </Col>
                 <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
@@ -134,8 +132,7 @@ export default function Projects(props) {
                         clips of Brian Kernighan and DJ Premier.
                     </p>
                     <p>
-                        <NewTabLink href="https://soundcloud.com/chocolate-milk-music">Here's</NewTabLink>
-                        my SoundCloud!
+                        <NewTabLink href="https://soundcloud.com/chocolate-milk-music">Here's</NewTabLink> my SoundCloud!
                     </p>
                 </Col>
                 <Col md={4} className="my-auto" style={{textAlign: 'center'}}>

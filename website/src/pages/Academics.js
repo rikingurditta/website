@@ -26,7 +26,7 @@ export default function Academics() {
                     </p>
                     <p>
                         If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
-                                                                    >here's</NewTabLink>a link to my anonymous feedback
+                                                                    >here's</NewTabLink> a link to my anonymous feedback
                         form.
                     </p>
                 </Col>
