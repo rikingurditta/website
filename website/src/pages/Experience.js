@@ -33,7 +33,13 @@ export default function Experience() {
                     <p>
                         As an intern, I've worked on a number of projects that are under NDA. However, I can say that
                         I work with code that manages memory and scheduling for the GPU, so that it can manage its data
-                        and tasks most effectively.
+                        and tasks most effectively. I've worked on architecture, development, and (especially) debugging
+                        the driver code.
+                    </p>
+                    <p>
+                        I've also created and presented training materials on topics like the driver architecture and
+                        using <NewTabLink href="https://en.wikipedia.org/wiki/WinDbg">WinDbg</NewTabLink> (a program
+                        that allows a developer to debug Windows applications running at the kernel level).
                     </p>
                 </Col>
             </Row>
@@ -112,7 +118,7 @@ export default function Experience() {
                 <Col md={4}>
                     <h2>UofT Computer Graphics Club</h2>
                     <p>
-                        Executive Member, VP External
+                        General Executive, VP External, Co-President
                         <br/>
                         2019 - Now
                     </p>
@@ -124,7 +130,8 @@ export default function Experience() {
                         UofT.
                     </p>
                     <p>
-                        As an exec/VP, I've:
+                        Over the years I've been a general exec, VP, and now I'm co-president. Here are some of the
+                        things I've done:
                     </p>
                     <ul>
                         <li>
@@ -136,8 +143,10 @@ export default function Experience() {
                             so that students could see research happening at UofT
                         </li>
                         <li>
-                            contributed to organizing UTCG Projects, an initiative to help students create projects
-                            in computer graphics during the online school year
+                            Planned and run workshops on <NewTabLink
+                            href="https://utcg.github.io/workshops/2022/02/10/shaders">2D shader programming
+                            </NewTabLink>, <NewTabLink href="https://utcg.github.io/workshops/2022/04/07/globe">using
+                            three.js for 3D web programming</NewTabLink>, and more.
                         </li>
                     </ul>
                 </Col>

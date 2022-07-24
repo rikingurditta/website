@@ -19,7 +19,7 @@ export default function Homepage() {
                         I'm a computer science and mathematics undergrad at University of Toronto. I'm interested in
                         computer graphics, music production, topology, video games, Rubik's cubes, and cycling.
                         <br/>
-                        Here's me looking gross asf in da wild:
+                        Here's me in da wild:
                     </p>
                 </Col>
                 <Col md={5} lg={4} className="my-auto" style={{textAlign: 'center'}}>
@@ -33,8 +33,7 @@ export default function Homepage() {
                     <h2>What I'm up to</h2>
                     <p>
                         Usually, I'm making sick beats, playing <i>Sekiro: Shadows Die Twice</i>, running, listening to
-                        underground hip hop, obsessing over public transit, cycling (when it's not icy), and reading <i>
-                        Le Transperceneige</i>.
+                        underground hip hop, obsessing over public transit, cycling, and reading indie graphic novels.
                         <br/>
                         <Link to="/projects" push="true">Check out my projects!</Link>
                     </p>
@@ -44,9 +43,9 @@ export default function Homepage() {
                 </Col>
             </FullPageRow>
             <div style={elephantVis ? {display: 'none'} : {backgroundColor: '#EEEEEE', textAlign: 'center'}}>
-                <a href="javascript:;" onClick={() => setElephantVis(true)} style={{fontSize: '12px', color: '#666666'}}>
+                <button onClick={() => setElephantVis(true)} style={{fontSize: '12px', color: '#666666', background: "none"}}>
                     Where's the elephant??
-                </a>
+                </button>
             </div>
             <FullPageRow style={elephantVis ? null : {display: 'none'}}>
                 <Col md={4} lg={{span: 4, order: 1}} className="my-auto" style={{textAlign: 'center'}}>
