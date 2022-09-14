@@ -56,6 +56,14 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
+                            <li>
+                                <Expandable outside={<span>CSC311 - Intro to Machine Learning</span>}>
+                                    <p className="expand-text">
+                                        <NewTabLink href="https://rikingurditta.github.io/csc311">Here</NewTabLink> are
+                                        my in-progress course notes.
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
                     <br/>
