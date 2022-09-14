@@ -43,10 +43,21 @@ export default function Academics() {
                         student volunteer at <NewTabLink href="https://s2020.siggraph.org/">SIGGRAPH 2020</NewTabLink>, a
                         huge computer graphics conference.
                     </p>
-                    {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
-                    {/*    <ul>*/}
-                    {/*    </ul>*/}
-                    {/*</Expandable>*/}
+                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
+                        <ul>
+                            <li>
+                                <Expandable outside={<span>CSC494 - Computer Science Project</span>}>
+                                    <p className="expand-text">
+                                        I'm currently doing a project on augmenting an existing geometry processing
+                                        algorithm using a modern collision detection system.
+                                        <br/>
+                                        <NewTabLink href="https://rikingurditta.github.io/csc494">Here</NewTabLink> are
+                                        my in-progress notes and work on the project.
+                                    </p>
+                                </Expandable>
+                            </li>
+                        </ul>
+                    </Expandable>
                     <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
@@ -175,10 +186,18 @@ export default function Academics() {
                     <p>
                         My second major is in math, mainly because I like math.
                     </p>
-                    {/*<Expandable outside={<span>Courses I'm taking this semester</span>}>*/}
-                    {/*    <ul>*/}
-                    {/*    </ul>*/}
-                    {/*</Expandable>*/}
+                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
+                        <ul>
+                            <li>
+                                <Expandable outside={<span>MAT354 - Complex Analysis 1</span>}>
+                                    <p className="expand-text">
+                                        <NewTabLink href="https://rikingurditta.github.io/mat354">Here</NewTabLink> are
+                                        my in-progress course notes.
+                                    </p>
+                                </Expandable>
+                            </li>
+                        </ul>
+                    </Expandable>
                     <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
@@ -239,6 +258,19 @@ export default function Academics() {
                         I'm interested in a lot of different stuff. Here are some courses I've taken at UofT that aren't
                         about computer science or mathematics.
                     </p>
+                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
+                        <ul>
+                            <li>
+                                <Expandable outside={<span>GGR217 - Urban Landscapes and Planning</span>}>
+                                    <p className="expand-text">
+                                        <NewTabLink href="https://rikingurditta.github.io/ggr217">Here</NewTabLink> are
+                                        my in-progress course notes.
+                                    </p>
+                                </Expandable>
+                            </li>
+                        </ul>
+                    </Expandable>
+                    <br/>
                     <Expandable outside={<span>Courses I've taken</span>}>
                         <ul>
                             <li>
