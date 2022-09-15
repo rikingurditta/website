@@ -323,6 +323,10 @@ export default function Academics() {
                                 and analysis</NewTabLink>
                         </li>
                         <li>
+                            <NewTabLink href="https://rikingurditta.github.io/csc311/">CSC311 - Intro to Machine
+                                Learning</NewTabLink>
+                        </li>
+                        <li>
                             <NewTabLink href="https://rikingurditta.github.io/csc369/">CSC369 - Operating
                                 systems</NewTabLink>
                         </li>
@@ -339,12 +343,19 @@ export default function Academics() {
                                 and rings</NewTabLink>
                         </li>
                         <li>
+                            <NewTabLink href="https://rikingurditta.github.io/mat347/">MAT354 - Complex Analysis 1</NewTabLink>
+                        </li>
+                        <li>
                             <NewTabLink href="https://rikingurditta.github.io/mat367/">MAT367 - Differential
                                 Geometry</NewTabLink>
                         </li>
                         <li>
                             <NewTabLink href="https://rikingurditta.github.io/lin200/">LIN200 - Intro to
                                 Language</NewTabLink>
+                        </li>
+                        <li>
+                            <NewTabLink href="https://rikingurditta.github.io/ggr217/">GGR217 - Urban Landscapes
+                                and Planning</NewTabLink>
                         </li>
                     </ul>
                 </Col>
