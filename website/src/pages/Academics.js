@@ -20,7 +20,7 @@ export default function Academics() {
                     <h2>Teaching</h2>
                 </Col>
                 <Col md={4} className="my-auto">
-                    <p>In the Fall 2020 semester I was a TA for MAT135 - Calculus 1. It was pretty fun! I got to meet
+                    <p>In the Fall 2020 semester I was a TA for MAT135 - Calculus 1 at UofT. It was pretty fun! I got to meet
                         lots of students and help them get through a pretty tough course. I hope to TA again sometime in
                         the future!
                     </p>
@@ -37,37 +37,13 @@ export default function Academics() {
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
-                        I'm focusing in computer graphics, and I hope to one day work in the field, either doing
-                        research or working on cool stuff like VR tech or movie rendering. This year I'm the President
+                        In my undergrad at UofT I focused in computer graphics. I hope to one day work in the field, either doing
+                        research or working on cool stuff like game engines or film animation. I was the President
                         of <NewTabLink href="https://utcg.club/">UofT Computer Graphics Club</NewTabLink>, and I was a
                         student volunteer at <NewTabLink href="https://s2020.siggraph.org/">SIGGRAPH 2020</NewTabLink>, a
                         huge computer graphics conference.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>CSC494 - Computer Science Project</span>}>
-                                    <p className="expand-text">
-                                        I'm currently doing a project on augmenting an existing geometry processing
-                                        algorithm using a modern collision detection system.
-                                        <br/>
-                                        <NewTabLink href="https://rikingurditta.github.io/csc494">Here</NewTabLink> are
-                                        my in-progress notes and work on the project.
-                                    </p>
-                                </Expandable>
-                            </li>
-                            <li>
-                                <Expandable outside={<span>CSC311 - Intro to Machine Learning</span>}>
-                                    <p className="expand-text">
-                                        <NewTabLink href="https://rikingurditta.github.io/csc311">Here</NewTabLink> are
-                                        my in-progress course notes.
-                                    </p>
-                                </Expandable>
-                            </li>
-                        </ul>
-                    </Expandable>
-                    <br/>
-                    <Expandable outside={<span>Courses I've taken</span>}>
+                    <Expandable outside={<span>Courses I took in undergrad</span>}>
                         <ul>
                             <li>CSC108 - Intro to programming (Fall 2018)</li>
                             <li>CSC148 - Intro to computer science (Winter 2019)</li>
@@ -165,11 +141,12 @@ export default function Academics() {
                                 <Expandable
                                     outside={<span>CSC417 - Physics-based animation (Fall 2020)</span>}>
                                     <p className="expand-text">
-                                        This was my favourite class of the Fall 2020 semester. I learned a lot! We
-                                        started with simulating deformable bodies made of springs, then learned how to
-                                        use the finite element method to simulate continuous materials. We used this to
-                                        simulate some pretty realistic-looking cloth! Then we simulated rigid bodies,
-                                        which were pretty tricky. For my final project, my partner and I made a pretty
+                                        This was one of my favourite classes in undergad. I learned a lot! It was taught
+                                        excellently by <NewTabLink href="http://142.93.146.228/researchdb/">David Levin
+                                        </NewTabLink>. We started with simulating deformable bodies made of springs, then
+                                        learned how to use the finite element method to simulate continuous materials. We
+                                        used this to simulate some pretty realistic-looking cloth! Then we simulated rigid
+                                        bodies, which were pretty tricky. For my final project, my partner and I made a pretty
                                         crappy fluid simulator. <NewTabLink
                                         href="https://github.com/rikingurditta/csc417-tilt-paint"
                                        >Here</NewTabLink> it is!
@@ -177,11 +154,64 @@ export default function Academics() {
                                         The prof was great and the assignments were fun, though they are a lot of
                                         work. <NewTabLink href="https://www.youtube.com/channel/UCIM0HrQVDcUYdrZvSwuUJgA"
                                                 >Here's</NewTabLink> the prof's YouTube channel with the lectures
-                                        for the course. I didn't take any notes to be honest.
+                                        for the course, and
+                                        <NewTabLink href="https://github.com/dilevin/CSC417-physics-based-animation">Here
+                                        </NewTabLink> are all the course materials. I didn't take any notes to be honest.
                                     </p>
                                 </Expandable>
                             </li>
-                            <li> CSC419 - Geometry processing (Fall 2020)</li>
+                            <li>
+                                <Expandable
+                                    outside={<span>CSC419 - Geometry processing (Fall 2020)</span>}>
+                                    <p className="expand-text">
+                                        This class is excellent, but very challenging. It's taught  by
+                                        <NewTabLink href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</NewTabLink>,
+                                        who is one of The experts on the topic, and a great person to learn from (I also had
+                                        the opportunty to do a project with him in Fall 2022). The assignments are pretty
+                                        difficult, but very interesting and rewarding. In this course, through dealing with
+                                        meshes, you also learn a lot about optimization, numerical linear algebra, discretizing
+                                        continuous problems, and more. It's a really cool way to learn about turning real-world
+                                        challenges into programs that a computer can solve. Highly recommend!
+                                        <br/>
+                                        For my final project, my friend and I implemented
+                                        <NewTabLink href="https://www.dgp.toronto.edu/projects/complementary-dynamics/">
+                                        Complementary Dynamics</NewTabLink>, a paper written by one of our TAs.
+                                        <NewTabLink href="https://youtu.be/s8Nm_ytwO6w">Here's</NewTabLink> a fun YouTube video
+                                        on it, and
+                                        <NewTabLink href="https://github.com/rikingurditta/csc419-complementary-dynamics/">Here's
+                                        </NewTabLink> our project.
+                                        <br/>
+                                        <NewTabLink href="https://github.com/alecjacobson/geometry-processing">Here
+                                        </NewTabLink> are all the course materials.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CSC311 - Intro to Machine Learning (Fall 2022)</span>}>
+                                    <p className="expand-text">
+                                        <NewTabLink href="https://rikingurditta.github.io/csc311">Here</NewTabLink> are
+                                        my (permanently incomplete) course notes. This course was alright! I recommend it.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CSC494 - Computer Science Project (Fall 2022)</span>}>
+                                    <p className="expand-text">
+                                        I did a project on augmenting <NewTabLink href="http://www.cs.columbia.edu/cg/nested-cages/">
+                                        Nested Cages</NewTabLink> by replacing its contact resolution system with a simplified version
+                                        of <NewTabLink href="https://ipc-sim.github.io/">IPC</NewTabLink>. It was really fun and I
+                                        learned a lot, but I don't think I managed my time and workload well enough to do a really
+                                        good project. I also burnt out pretty hard. But I got a lot of good guidance, ideas, and
+                                        advice from my professor <NewTabLink href="https://www.cs.toronto.edu/~jacobson/">Alec
+                                        </NewTabLink>, and I enjoyed pretending to be a grad student in his group.
+                                        <br/>
+                                        <NewTabLink href="https://rikingurditta.github.io/csc494">Here</NewTabLink> are
+                                        my notes and work on the project, and <NewTabLink
+                                        href="https://rikingurditta.github.io/csc494/CSC494_Report.pdf">Here's
+                                        </NewTabLink> my report.
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
                 </Col>
@@ -192,22 +222,9 @@ export default function Academics() {
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
-                        My second major is in math, mainly because I like math.
+                        In my undergrad I also minored in math, mainly because I like math.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>MAT354 - Complex Analysis 1</span>}>
-                                    <p className="expand-text">
-                                        <NewTabLink href="https://rikingurditta.github.io/mat354">Here</NewTabLink> are
-                                        my in-progress course notes.
-                                    </p>
-                                </Expandable>
-                            </li>
-                        </ul>
-                    </Expandable>
-                    <br/>
-                    <Expandable outside={<span>Courses I've taken</span>}>
+                    <Expandable outside={<span>Courses I took in undergrad</span>}>
                         <ul>
                             <li>MAT157 - Analysis 1 (Fall 2018 - Winter 2019)</li>
                             <li>MAT223 - Linear algebra 1 (Winter 2019)</li>
@@ -247,6 +264,19 @@ export default function Academics() {
                             </li>
                             <li>
                                 <Expandable
+                                    outside={<span>APM348 - Mathematical Modelling (Winter 2023)</span>}>
+                                    <p className="expand-text">
+                                        Great course! <NewTabLink
+                                        href="https://www.math.toronto.edu/cms/people/faculty/stinchcombe-adam/"> Adam
+                                        Stinchcombe</NewTabLink> was a great professor, and the topics presented were
+                                        super cool - we learned about electrical signals in squid neurons, blood flow in the
+                                        circulatory system, highway traffic, disease modelling, and more. My friend and I did
+                                        our final project fitting Ontario's COVID-19 infection dynamics to a compartment model.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable
                                     outside={<span>STA257 - Probability and Statistics I (Fall 2019)</span>}>
                                     <p className="expand-text">
                                         🤮
@@ -263,23 +293,10 @@ export default function Academics() {
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
-                        I'm interested in a lot of different stuff. Here are some courses I've taken at UofT that aren't
-                        about computer science or mathematics.
+                        I'm interested in a lot of stuff. Here are some courses I took during my undergrad that aren't about
+                        computer science or mathematics.
                     </p>
-                    <Expandable outside={<span>Courses I'm taking this semester</span>}>
-                        <ul>
-                            <li>
-                                <Expandable outside={<span>GGR217 - Urban Landscapes and Planning</span>}>
-                                    <p className="expand-text">
-                                        <NewTabLink href="https://rikingurditta.github.io/ggr217">Here</NewTabLink> are
-                                        my in-progress course notes.
-                                    </p>
-                                </Expandable>
-                            </li>
-                        </ul>
-                    </Expandable>
-                    <br/>
-                    <Expandable outside={<span>Courses I've taken</span>}>
+                    <Expandable outside={<span>Courses I took in undergrad</span>}>
                         <ul>
                             <li>
                                 <Expandable
@@ -304,7 +321,35 @@ export default function Academics() {
                                         <NewTabLink href="https://rikingurditta.github.io/lin200/">Here</NewTabLink> are
                                         my notes for the course.
                                     </p>
-                                </Expandable></li>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>GGR217 - Urban Landscapes and Planning (Fall 2022)</span>}>
+                                    <p className="expand-text">
+                                        This course is really great, I highly recommend it to everyone. It's important to
+                                        learn about the history, social implications, economic factors, and political
+                                        challenges that are relevant to urban life. My prof was Adam Zendel, who was
+                                        excellent. I admire a teacher who is unafraid of arguing with the university to
+                                        get the accessibility entrance unlocked, unfraid of discussing the harmful political
+                                        projects of the university and much of its faculty, and unafraid of saying "Fuck cops"
+                                        in a classroom. This topic is inherently political and it would be unserious to teach
+                                        it in the depoliticized manner in which it is typically discussed.
+                                        <br/>
+                                        Highly recommend.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CIN210 - Horror Film (Winter 2023)</span>}>
+                                    <p className="expand-text">
+                                        Amazing course. Highly recommend, even if only so that you can spend an afternoon every
+                                        week in a theatre watching a movie and then another afternoon talking about it.
+                                        My prof was <NewTabLink href="http://laurencramer.com/cramerabout">Lauren Cramer
+                                        </NewTabLink>, who was excellent. Aside from being a great prof for the course, it was
+                                        great to talk to her about hip hop after each lecture (it's one of her research topics).
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
                 </Col>

@@ -26,18 +26,17 @@ export default function Experience() {
                 <Col md={4}>
                     <p>
                         <NewTabLink href="https://www.amd.com">AMD</NewTabLink> is a semiconductor company, well-known for
-                        its GPUs and CPUs. I'm currently an intern in the team working on the Windows Kernel Mode
-                        Driver, which is the software that runs at the OS-level to enable GPU hardware to work with a
+                        its GPUs and CPUs. I worked on the Windows Kernel Mode Driver, which is the software that runs at
+                        the OS-level to enable GPU hardware to work with a
                         computer.
                     </p>
                     <p>
-                        As an intern, I've worked on a number of projects that are under NDA. However, I can say that
-                        I work with code that manages memory and scheduling for the GPU, so that it can manage its data
-                        and tasks most effectively. I've worked on architecture, development, and (especially) debugging
-                        the driver code.
+                        As an intern, I worked on code that handles memory and scheduling for the GPU, so that it can
+                        effectively manage its data and tasks. I've worked on architecture, development, and (especially)
+                        debugging the driver code.
                     </p>
                     <p>
-                        I've also created and presented training materials on topics like the driver architecture and
+                        I also created and presented training materials on topics like the driver architecture and
                         using <NewTabLink href="https://en.wikipedia.org/wiki/WinDbg">WinDbg</NewTabLink> (a program
                         that allows a developer to debug Windows applications running at the kernel level).
                     </p>
@@ -120,7 +119,7 @@ export default function Experience() {
                     <p>
                         General Executive, VP External, Co-President
                         <br/>
-                        2019 - Now
+                        2019 - 2023
                     </p>
                 </Col>
                 <Col md={4}>
@@ -143,10 +142,10 @@ export default function Experience() {
                             so that students could see research happening at UofT
                         </li>
                         <li>
-                            Planned and run workshops on <NewTabLink
+                            planned and run workshops on <NewTabLink
                             href="https://utcg.github.io/workshops/2022/02/10/shaders">2D shader programming
                             </NewTabLink>, <NewTabLink href="https://utcg.github.io/workshops/2022/04/07/globe">using
-                            three.js for 3D web programming</NewTabLink>, and more.
+                            three.js for 3D web programming</NewTabLink>, and more
                         </li>
                     </ul>
                 </Col>
