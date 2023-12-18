@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.06e834ad.css",
-    "main.js": "/static/js/main.0058c9c0.js",
+    "main.js": "/static/js/main.eb29dfe7.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/me_halo.jpg": "/static/media/me_halo.a37ccdf4cf2eb6a6c2ed.jpg",
     "static/media/origami elephant cropped.jpg": "/static/media/origami elephant cropped.082d294ce8e1256ed8be.jpg",
+    "static/media/me_with_shadow.jpg": "/static/media/me_with_shadow.59b86e5b11c83cca052c.jpg",
     "static/media/02_doughnut_end_of_lvl_2.png": "/static/media/02_doughnut_end_of_lvl_2.170b4b940f09437cdd3a.png",
+    "static/media/shadow_face.jpg": "/static/media/shadow_face.d3851a3a60b1862a582f.jpg",
     "static/media/me_dirty_af.png": "/static/media/me_dirty_af.377ed5b041c6379ddfe6.png",
     "static/media/suzanne on fire.png": "/static/media/suzanne on fire.7bd45aaa58cfc5993f1d.png",
     "static/media/lastfm.png": "/static/media/lastfm.3df88222e56c5d86ca24.png",
+    "static/media/linkedin.svg": "/static/media/linkedin.b59f87c816f1f6a58908868730285ea9.svg",
+    "static/media/github-mark.svg": "/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "static/media/goodreads.svg": "/static/media/goodreads.52506f234d93af13badeef9e2afc638a.svg",
     "index.html": "/index.html",
     "main.06e834ad.css.map": "/static/css/main.06e834ad.css.map",
-    "main.0058c9c0.js.map": "/static/js/main.0058c9c0.js.map",
+    "main.eb29dfe7.js.map": "/static/js/main.eb29dfe7.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06e834ad.css",
-    "static/js/main.0058c9c0.js"
+    "static/js/main.eb29dfe7.js"
   ]
 }
