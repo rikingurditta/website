@@ -17,7 +17,55 @@ export default function Academics() {
             </TitleRow>
             <Row className="justify-content-md-center text-content">
                 <Col md={4}>
-                    <h2>Teaching</h2>
+                    <h2>Masters</h2>
+                </Col>
+                <Col md={4} className="my-auto">
+                    <p>I started my MMath in Computer Science at University of Waterloo in September 2023. My supervisor
+                    is the wonderful <NewTabLink href="https://cs.uwaterloo.ca/~c2batty/">Professor Christopher Batty</NewTabLink>!
+                    I'm doing research into methods in physics-based animation, particularly fluid simulation.
+                    </p>
+                    <p>
+                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
+                                                                    >here's</NewTabLink> a link to my anonymous feedback
+                        form.
+                    </p>
+                    <Expandable outside={<span>My courses</span>}>
+                        <ul>
+                            <li>
+                                <Expandable outside={<span>CS 770 - Numerical Analysis (Fall 2023)</span>}>
+                                    <p className="expand-text">
+                                        Great course! Glad I finally know what an LU factorization is :D
+                                        My prof was <NewTabLink href="https://cs.uwaterloo.ca/~jorchard/">Jeff Orchard</NewTabLink>,
+                                        who is a great lecturer who tells a lot of jokes. You can tell he really cares about inclusivity
+                                        and kindness in his class too.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CS 795 - Fundamentals of Optimization (Fall 2023)</span>}>
+                                    <p className="expand-text">
+                                        Pretty awesome course. It's a very rigorous theoretical treatment of optimization,
+                                        but that's the sort of thing I enjoy so I liked it a lot. Plus I had a very friendly
+                                        and supportive prof, <NewTabLink href="https://uwaterloo.ca/combinatorics-and-optimization/about/people/wmoursi">Walaa Moursi</NewTabLink>,
+                                        who is also an amazing lecturer.
+                                    </p>
+                                </Expandable>
+                            </li>
+                        </ul>
+                    </Expandable>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
+                <Col md={4}>
+                    <h2>Undergrad</h2>
+                </Col>
+                <Col md={4}/>
+            </Row>
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
+                <Col md={4}>
+                    <h4>Teaching</h4>
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>In the Fall 2020 semester I was a TA for MAT135 - Calculus 1 at UofT. It was pretty fun! I got to meet
@@ -31,9 +79,10 @@ export default function Academics() {
                     </p>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content">
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
-                    <h2>Computer Science</h2>
+                    <h4>Computer Science</h4>
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
@@ -216,9 +265,10 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content">
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
-                    <h2>Mathematics</h2>
+                    <h4>Mathematics</h4>
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
@@ -287,9 +337,10 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content">
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
-                    <h2>Breadth and Interest</h2>
+                    <h4>Breadth and Interest</h4>
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
