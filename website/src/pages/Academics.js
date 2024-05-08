@@ -72,7 +72,8 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content">
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
                     <h2>Teaching</h2>
                 </Col>
@@ -90,15 +91,13 @@ export default function Academics() {
                     </p>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content"
-                 style={{backgroundColor: '#F8FFF8'}}>
+            <Row className="justify-content-md-center text-content">
                 <Col md={4}>
                     <h2>Undergrad</h2>
                 </Col>
                 <Col md={4}/>
             </Row>
-            <Row className="justify-content-md-center text-content"
-                 style={{backgroundColor: '#F8FFF8'}}>
+            <Row className="justify-content-md-center text-content">
                 <Col md={4}>
                     <h4>Computer Science</h4>
                 </Col>
@@ -282,8 +281,7 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content"
-                 style={{backgroundColor: '#F8FFF8'}}>
+            <Row className="justify-content-md-center text-content">
                 <Col md={4}>
                     <h4>Mathematics</h4>
                 </Col>
@@ -354,8 +352,7 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content"
-                 style={{backgroundColor: '#F8FFF8'}}>
+            <Row className="justify-content-md-center text-content">
                 <Col md={4}>
                     <h4>Breadth and Interest</h4>
                 </Col>
@@ -422,7 +419,8 @@ export default function Academics() {
                     </Expandable>
                 </Col>
             </Row>
-            <Row className="justify-content-md-center text-content">
+            <Row className="justify-content-md-center text-content"
+                 style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
                     <h2>Course Notes</h2>
                 </Col>
