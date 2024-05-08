@@ -24,12 +24,7 @@ export default function Academics() {
                     is the wonderful <NewTabLink href="https://cs.uwaterloo.ca/~c2batty/">Professor Christopher Batty</NewTabLink>!
                     I'm doing research into methods in physics-based animation, particularly fluid simulation.
                     </p>
-                    <p>
-                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
-                                                                    >here's</NewTabLink> a link to my anonymous feedback
-                        form.
-                    </p>
-                    <Expandable outside={<span>My courses</span>}>
+                    <Expandable outside={<span>My graduate courses</span>}>
                         <ul>
                             <li>
                                 <Expandable outside={<span>CS 770 - Numerical Analysis (Fall 2023)</span>}>
@@ -51,8 +46,48 @@ export default function Academics() {
                                     </p>
                                 </Expandable>
                             </li>
+                            <li>
+                                <Expandable outside={<span>CS 778 - Numerical Solutions of PDEs (Winter 2024)</span>}>
+                                    <p className="expand-text">
+                                        I found this course pretty tough in terms of grasping all of the content, but it's
+                                        really interesting too. Very cool to see the functional analysis that goes into
+                                        proving that we really can numerically solve PDEs. And prof <NewTabLink
+                                        href="https://uwaterloo.ca/applied-mathematics/people-profiles/sander-rhebergen">Sander Rhebergen
+                                        </NewTabLink> was an excellent teacher! It was also fun to implement a few PDE solvers
+                                        in code. Forgetting that I had a midterm and walking in ten minutes late with no aid
+                                        sheet was less fun, but it makes for a funny story now.
+                                    </p>
+                                </Expandable>
+                            </li>
+                            <li>
+                                <Expandable outside={<span>CS 898 - Topics in Computer Vision (Winter 2024)</span>}>
+                                    <p className="expand-text">
+                                        I had fun! Prof <NewTabLink href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykob</NewTabLink> is
+                                        suuuper enthusiastic about the topic, and I'm way more interested in computer vision now than I
+                                        was going into this course.
+                                    </p>
+                                </Expandable>
+                            </li>
                         </ul>
                     </Expandable>
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center text-content">
+                <Col md={4}>
+                    <h2>Teaching</h2>
+                </Col>
+                <Col md={4} className="my-auto">
+                    <p>I love being a teaching assistant! I've TA'd for:</p>
+                    <ul>
+                        <li>MAT135 - <i>Calculus 1</i> in Fall 2020 (UofT)</li>
+                        <li>CS 135 - <i>Designing Functional Programs</i> in Fall 2023 (UWaterloo)</li>
+                        <li>CS 370 - <i>Numerical Computation</i> in Winter and Spring 2024 (UWaterloo)</li>
+                    </ul>
+                    <p>
+                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
+                                                                    >here's</NewTabLink> a link to my anonymous feedback
+                        form.
+                    </p>
                 </Col>
             </Row>
             <Row className="justify-content-md-center text-content"
@@ -65,29 +100,11 @@ export default function Academics() {
             <Row className="justify-content-md-center text-content"
                  style={{backgroundColor: '#F8FFF8'}}>
                 <Col md={4}>
-                    <h4>Teaching</h4>
-                </Col>
-                <Col md={4} className="my-auto">
-                    <p>In the Fall 2020 semester I was a TA for MAT135 - Calculus 1 at UofT. It was pretty fun! I got to meet
-                        lots of students and help them get through a pretty tough course. I hope to TA again sometime in
-                        the future!
-                    </p>
-                    <p>
-                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
-                                                                    >here's</NewTabLink> a link to my anonymous feedback
-                        form.
-                    </p>
-                </Col>
-            </Row>
-            <Row className="justify-content-md-center text-content"
-                 style={{backgroundColor: '#F8FFF8'}}>
-                <Col md={4}>
                     <h4>Computer Science</h4>
                 </Col>
                 <Col md={4} className="my-auto">
                     <p>
-                        In my undergrad at UofT I focused in computer graphics. I hope to one day work in the field, either doing
-                        research or working on cool stuff like game engines or film animation. I was the President
+                        In my undergrad at UofT I focused in computer graphics - I was the President
                         of <NewTabLink href="https://utcg.club/">UofT Computer Graphics Club</NewTabLink>, and I was a
                         student volunteer at <NewTabLink href="https://s2020.siggraph.org/">SIGGRAPH 2020</NewTabLink>, a
                         huge computer graphics conference.
