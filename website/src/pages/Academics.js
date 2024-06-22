@@ -466,7 +466,8 @@ export default function Academics() {
                                 and rings</NewTabLink>
                         </li>
                         <li>
-                            <NewTabLink href="https://rikingurditta.github.io/mat347/">MAT354 - Complex Analysis 1</NewTabLink>
+                            <NewTabLink href="https://rikingurditta.github.io/mat347/">MAT354 - Complex Analysis
+                                1 </NewTabLink>
                         </li>
                         <li>
                             <NewTabLink href="https://rikingurditta.github.io/mat367/">MAT367 - Differential
@@ -479,6 +480,10 @@ export default function Academics() {
                         <li>
                             <NewTabLink href="https://rikingurditta.github.io/ggr217/">GGR217 - Urban Landscapes
                                 and Planning</NewTabLink>
+                        </li>
+                        <li>
+                            <NewTabLink href="https://rikingurditta.github.io/cs778">CS 770 - Numerical Solution
+                                of Partial Differential Equations</NewTabLink>
                         </li>
                     </ul>
                 </Col>
