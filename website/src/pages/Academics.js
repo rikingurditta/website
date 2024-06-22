@@ -22,7 +22,7 @@ export default function Academics() {
                 <Col md={4} className="my-auto">
                     <p>I started my MMath in Computer Science at University of Waterloo in September 2023. My supervisor
                     is the wonderful <NewTabLink href="https://cs.uwaterloo.ca/~c2batty/">Professor Christopher Batty</NewTabLink>!
-                    I'm doing research into methods in physics-based animation, particularly fluid simulation.
+                    I'm doing research on methods in physics-based animation, particularly fluid simulation.
                     </p>
                     <Expandable outside={<span>My graduate courses</span>}>
                         <ul>
@@ -55,14 +55,16 @@ export default function Academics() {
                                         href="https://uwaterloo.ca/applied-mathematics/people-profiles/sander-rhebergen">Sander Rhebergen
                                         </NewTabLink> was an excellent teacher! It was also fun to implement a few PDE solvers
                                         in code. Forgetting that I had a midterm and walking in ten minutes late with no aid
-                                        sheet was less fun, but it makes for a funny story now.
+                                        sheet was less fun, but it makes for a funny story now.<br/>
+                                        <NewTabLink href="https://rikingurditta.github.io/cs778">Here</NewTabLink> are
+                                        my notes for the course.
                                     </p>
                                 </Expandable>
                             </li>
                             <li>
                                 <Expandable outside={<span>CS 898 - Topics in Computer Vision (Winter 2024)</span>}>
                                     <p className="expand-text">
-                                        I had fun! Prof <NewTabLink href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykob</NewTabLink> is
+                                        I had fun! Prof <NewTabLink href="https://cs.uwaterloo.ca/~yboykov/">Yuri Boykov</NewTabLink> is
                                         suuuper enthusiastic about the topic, and I'm way more interested in computer vision now than I
                                         was going into this course.
                                     </p>
@@ -85,9 +87,19 @@ export default function Academics() {
                         <li>CS 370 - <i>Numerical Computation</i> in Winter and Spring 2024 (UWaterloo)</li>
                     </ul>
                     <p>
-                        If you were one of my students, <NewTabLink href="https://forms.gle/WoSfM34xCnz4NRma7"
-                                                                    >here's</NewTabLink> a link to my anonymous feedback
-                        form.
+                        <b>
+                            If you were one of my students, <NewTabLink
+                            href="https://forms.gle/WoSfM34xCnz4NRma7">here's</NewTabLink> a link to my
+                            anonymous feedback form.
+                        </b>
+                    </p>
+                    <p>
+                        I also provide private tutoring at a relatively affordable rate to students who
+                        needs help with calculus, linear algebra, numerical analysis, intro programming
+                        (in Python or C), computer graphics, and potentially other topics that I've taken
+                        classes on. Feel free to <NewTabLink href="mailto:rikingurditta@gmail.com">email
+                        me</NewTabLink> to inquire! And please let me know if you need a reduced rate or
+                        any other accomodations.
                     </p>
                 </Col>
             </Row>

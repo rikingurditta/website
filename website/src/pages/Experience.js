@@ -55,8 +55,6 @@ export default function Experience() {
                     <p>
                         <NewTabLink href="https://www.centivizer.com/">Centivizer</NewTabLink> is a startup based in
                         UofT's <NewTabLink href="https://imedia.mie.utoronto.ca/">Interactive Media Lab</NewTabLink>.
-                    </p>
-                    <p>
                         In 2019, I worked on a 3D driving simulator game for the <i>Experiential Centivizer</i> project.
                         I worked on:
                     </p>
@@ -93,10 +91,7 @@ export default function Experience() {
                     <p>
                         <NewTabLink href="https://www.national.ca/en/">NATIONAL Public Relations</NewTabLink> is a large
                         Canadian public relations company. I was an intern for the Research and Strategy team at their
-                        Toronto office.
-                    </p>
-                    <p>
-                        I worked on:
+                        Toronto office. At the firm I worked on:
                     </p>
                     <ul>
                         <li>media monitoring</li>
@@ -126,15 +121,11 @@ export default function Experience() {
                     <p>
                         <NewTabLink href="https://utcg.club">UTCG</NewTabLink> organizes workshops/tutorials, research
                         talks, industry events, field trips, and social events for computer graphics enthusiasts at
-                        UofT.
-                    </p>
-                    <p>
-                        Over the years I've been a general exec, VP, and now I'm co-president. Here are some of the
-                        things I've done:
+                        UofT. Here are some of the things I've worked on as an executive member:
                     </p>
                     <ul>
                         <li>
-                            worked on (and currently update) the club's <NewTabLink href="https://utcg.club">website</NewTabLink>
+                            worked on the club's <NewTabLink href="https://utcg.club">website</NewTabLink>
                         </li>
                         <li>
                             organized the Rapid Fire Research Talks event, where <NewTabLink
