@@ -28,7 +28,7 @@ const sitePages = [
 
 const extPages = [
     {
-        name: "Blog"
+        name: "Blog",
         path: "https://rikingurditta.github.io/blog/"
     }
 ]
