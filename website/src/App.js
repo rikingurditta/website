@@ -37,7 +37,7 @@ function App() {
     return (
         <div className="App">
             <Router>
-                <GlobalNavbar sitePages={sitePages}/>
+                <GlobalNavbar sitePages={sitePages} extPages={extPages}/>
                 <ScrollToTop/>
                 <Switch>
                     <Route path="/" exact component={Homepage}/>
