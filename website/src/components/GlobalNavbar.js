@@ -32,7 +32,7 @@ export default class GlobalNavbar extends Component {
                         }
                         {
                             this.props.extPages.map(page =>
-                                <Nav.Link as={Link} to={page.path} push="true" key={page.path}>{page.name}</Nav.Link>
+                                <Nav.Link href={page.path} push="true" key={page.path}>{page.name}</Nav.Link>
                             )
                         }
                     </Nav>
