@@ -8,7 +8,7 @@ import GlobalNavbar from "./components/GlobalNavbar";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
-const pages = [
+const sitePages = [
     {
         name: 'Projects',
         path: 'projects',
@@ -26,17 +26,23 @@ const pages = [
     },
 ];
 
+const extPages = [
+    {
+        name: "Blog"
+        path: "https://rikingurditta.github.io/blog/"
+    }
+]
 
 function App() {
     return (
         <div className="App">
             <Router>
-                <GlobalNavbar sitePages={pages}/>
+                <GlobalNavbar sitePages={sitePages}/>
                 <ScrollToTop/>
                 <Switch>
                     <Route path="/" exact component={Homepage}/>
                     {
-                        pages.map(page =>
+                        sitePages.map(page =>
                             <Route path={'/' + page.path}
                                    component={page.component}
                                    key={page.path}/>

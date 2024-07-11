@@ -30,6 +30,11 @@ export default class GlobalNavbar extends Component {
                                 <Nav.Link as={Link} to={'/' + page.path} push="true" key={page.path}>{page.name}</Nav.Link>
                             )
                         }
+                        {
+                            this.props.extPages.map(page =>
+                                <Nav.Link as={Link} to={page.path} push="true" key={page.path}>{page.name}</Nav.Link>
+                            )
+                        }
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
